@@ -6,13 +6,13 @@
 
 |Schematic|PCB|
 |:---:|:---:|
-|![Schematic1](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-32-56.png)||
+|![Schematic1](.//Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-32-56.png)||
 
 ### ESP32 & PCF8574
 
 |Schematic|PCB|
 |:---:|:---:|
-|![Schematic2](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-58-53.png)|![pcb2](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-59-12.png)|
+|![Schematic2](./Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-58-53.png)|![pcb2](./Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-59-12.png)|
 
 ## ESPHome
 
