@@ -1,9 +1,6 @@
-# Modeltog med Home Assistant og ESPHome
+# OMJK version af HA styring
 
-* Marklin version af styring 
-  * [Lars's Marklin anlæg](./marklin/Marklin.md)
-* OMJK version af styring [OMJK hjemmeside](https://www.facebook.com/omjk1949)
-  * Sporbesat detector for OMJK's anlæg
+## Schematic og PCB
 
 ### SkindeInterface
 
@@ -17,7 +14,9 @@
 |:---:|:---:|
 |![Schematic2](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-58-53.png)|![pcb2](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-59-12.png)|
 
-### Code for ESP32
+## ESPHome
+
+### code for ESP32
 
 ```yaml
 substitutions:
