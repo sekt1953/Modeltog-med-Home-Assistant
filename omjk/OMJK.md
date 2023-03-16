@@ -6,9 +6,9 @@
 
 * Fritzing file: [SkindeInterface.fzz](./Fritzing/SkindeInterface.fzz)
 
-|Schematic|PCB|
-|:---:|:---:|
-|![Schematic1](.//Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-32-56.png)|[Fritzing file: SkindeInterface.fzz ](./Fritzing/SkindeInterface.fzz)|
+|Schematic|
+|:---:|
+|![Schematic1](.//Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-32-56.png)|
 
 ### ESP32 & PCF8574
 
