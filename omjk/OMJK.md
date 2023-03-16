@@ -10,17 +10,45 @@
 
 ### ESP32 & PCF8574
 
-|Schematic|PCB|
-|:---:|:---:|
-|![Schematic2](./Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-58-53.png)|![pcb2](./Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-59-12.png)|
+|Schematic|
+|:---:|
+|![Schematic2](./Images/Sk%C3%A6rmbillede%20fra%202023-03-16%2019-58-07.png)|
+
+|Protype PCB|
+|:---:|
+|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-16%2019-57-49.png)|
 
 ## ESPHome
 
 ### code for ESP32
 
+* Note:
+  * PCF8574P 
+    * 8bit portudvidelse I2C (2 wire) interface DIL16
+    * Adresserbar til hex:
+    * 0x20 0x21 0x22 0x23 0x24  0x25 0x26 0x27
+  * pcf8574AP
+    * 8bit portudvidelse I2C (2 wire) interface DIL16
+    * Adresserbar til hex: 
+    * 0x38 0x39 0x3a 0x3b 0x3c 0x3d 0x3e 0x3f
+  * IC PCF8575
+    * 16 I/O porte, kan hver isæt anvendes som indgang eller udgang.
+    * Adresserbar til hex:
+    * 0x20 0x21 0x22 0x23 0x24  0x25 0x26 0x27
+
 ```yaml
 substitutions:
   esphome_name: "track_001"
+  addr_hub0: "pcf8574_hub0"
+  addr_hub1: "pcf8574_hub1"
+  addr_hub2: "pcf8574_hub2"
+  addr_hub3: "pcf8574_hub3"
+  addr_hub4: "pcf8574_hub4"
+  addr_hub5: "pcf8574_hub5"
+  i2c_sda: "21"
+  i2c_scl: "22"
+  i2c_scan: "true"
+  i2c_id: "bus_a"
 
 esphome:
   name: ${esphome_name}
@@ -48,7 +76,7 @@ wifi:
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "Futtog-001 Fallback Hotspot"
+    ssid: "${esphome_name} Fallback Hotspot"
     password: "mdZZqsXjd1nT"
 
 captive_portal:
@@ -65,16 +93,24 @@ text_sensor:
       name: "${esphome_name}_Mac Wifi Address"
 
 i2c:
-  sda: 21
-  scl: 22
-  scan: true
-  id: bus_a    
+  sda: ${i2c_sda}
+  scl: ${i2c_scl}
+  scan: ${i2c_scan}  
+  id: ${i2c_id}
+
+# pcf8574P
+# 8bit portudvidelse I2C (2 wire) interface DIL16 Adresserbar til 
+# hex:  0x20 0x21 0x22 0x23 0x24  0x25 0x26 0x27
+
+# pcf8574AP
+# 8bit portudvidelse I2C (2 wire) interface DIL16 Adresserbar til 
+# hex: 0x38 0x39 0x3a 0x3b 0x3c 0x3d 0x3e 0x3f 
 
 pcf8574:
-  - id: 'pcf8574_hub'
+  - id: ${addr_hub0}
     address: 0x21
     pcf8575: false
-  - id: 'pcf8574_hub1'
+  - id: ${addr_hub1}
     address: 0x38
     pcf8575: false
 
@@ -83,7 +119,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #00"
     pin:
-      pcf8574: pcf8574_hub
+      pcf8574: ${addr_hub0}
       number: 0
       mode:
         input: true
@@ -91,7 +127,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #01"
     pin:
-      pcf8574: pcf8574_hub
+      pcf8574: ${addr_hub0}
       number: 1
       mode:
         input: true
@@ -99,7 +135,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #02"
     pin:
-      pcf8574: pcf8574_hub
+      pcf8574: ${addr_hub0}
       number: 2
       mode:
         input: true
@@ -107,7 +143,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #03"
     pin:
-      pcf8574: pcf8574_hub
+      pcf8574: ${addr_hub0}
       number: 3
       mode:
         input: true
@@ -115,7 +151,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #04"
     pin:
-      pcf8574: pcf8574_hub
+      pcf8574: ${addr_hub0}
       number: 4
       mode:
         input: true
@@ -123,7 +159,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #05"
     pin:
-      pcf8574: pcf8574_hub
+      pcf8574: ${addr_hub0}
       number: 5
       mode:
         input: true
@@ -131,7 +167,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #06"
     pin:
-      pcf8574: pcf8574_hub
+      pcf8574: ${addr_hub0}
       number: 6
       mode:
         input: true
@@ -139,7 +175,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #07"
     pin:
-      pcf8574: pcf8574_hub
+      pcf8574: ${addr_hub0}
       number: 7
       mode:
         input: true
@@ -150,7 +186,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #08"
     pin:
-      pcf8574: pcf8574_hub1
+      pcf8574: ${addr_hub1}
       number: 0
       mode:
         input: true
@@ -158,7 +194,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #09"
     pin:
-      pcf8574: pcf8574_hub1
+      pcf8574: ${addr_hub1}
       number: 1
       mode:
         input: true
@@ -166,7 +202,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #10"
     pin:
-      pcf8574: pcf8574_hub1
+      pcf8574: ${addr_hub1}
       number: 2
       mode:
         input: true
@@ -174,7 +210,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #11"
     pin:
-      pcf8574: pcf8574_hub1
+      pcf8574: ${addr_hub1}
       number: 3
       mode:
         input: true
@@ -182,7 +218,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #12"
     pin:
-      pcf8574: pcf8574_hub1
+      pcf8574: ${addr_hub1}
       number: 4
       mode:
         input: true
@@ -190,7 +226,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #13"
     pin:
-      pcf8574: pcf8574_hub1
+      pcf8574: ${addr_hub1}
       number: 5
       mode:
         input: true
@@ -198,7 +234,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #14"
     pin:
-      pcf8574: pcf8574_hub1
+      pcf8574: ${addr_hub1}
       number: 6
       mode:
         input: true
@@ -206,7 +242,7 @@ binary_sensor:
   - platform: gpio
     name: "Track #15"
     pin:
-      pcf8574: pcf8574_hub1
+      pcf8574: ${addr_hub1}
       number: 7
       mode:
         input: true
