@@ -21,6 +21,8 @@
   * [IC sokkel række - 40pin](https://softgenie.dk/ic-sokler/293-ic-sokel-raekke-40pin.html)
   * [40 pin stiftrække han 1 række](https://softgenie.dk/stik-connector/263-40-pin-stiftraekke-han-1-raekke.html)
   * [Stift hun 2.54mm 1 række](https://softgenie.dk/stik-connector/3112-stift-hun-254mm-1-raekke.html#/pins-40_pins)
+  * [5PL. PINRÆKKE M.FLIG LIGE MOD 2.54](https://el-supply.dk/5pl-pinraekke-mflig-lige-mod-254/varenummer/0-5556.05)
+  * [LØS CRIMPHUS med LÅS 5PL MOD 2.54](https://el-supply.dk/loes-crimphus-med-laas-5pl-mod-254/varenummer/0-5557.05)
 * Kabler
   * [Hun-til-hun dupont ledninger](https://softgenie.dk/stik-connector/55-hun-til-hun-ledninger.html)
 * LED
