@@ -4,11 +4,15 @@
 
 ### SkindeInterface
 
+* Fritzing file: [SkindeInterface.fzz](./Fritzing/SkindeInterface.fzz)
+
 |Schematic|PCB|
 |:---:|:---:|
-|![Schematic1](.//Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-32-56.png)||
+|![Schematic1](.//Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-32-56.png)|[Fritzing file: SkindeInterface.fzz ](./Fritzing/SkindeInterface.fzz)|
 
 ### ESP32 & PCF8574
+
+* Fritzing file: [ESP32_PCF8574.fzz](./Fritzing/ESP32_PCF8574.fzz)
 
 |Schematic|
 |:---:|
