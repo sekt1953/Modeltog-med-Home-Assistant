@@ -255,7 +255,7 @@ binary_sensor:
 
 |Track||
 |:---:|:---:|
-|![Track1](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2018-18-34.png)|![]()|
+|![Track1](./Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2018-18-34.png)|![]()|
 
 ### Lovelace yaml
 
