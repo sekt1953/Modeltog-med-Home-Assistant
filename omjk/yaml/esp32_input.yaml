@@ -29,7 +29,7 @@ substitutions:
   i2c_id: "bus_a"
 
 esphome:
-  name: futtog-001
+  name: ${esphome_name}
   friendly_name: ${esphome_name}
 
 esp32:

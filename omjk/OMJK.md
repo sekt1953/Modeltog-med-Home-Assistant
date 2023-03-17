@@ -56,63 +56,44 @@
 
 |Track||
 |:---:|:---:|
-|![Track1](./Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2018-18-34.png)|![]()|
+|![Track1](./Images/Sk%C3%A6rmbillede%20fra%202023-03-17%2014-30-21.png)|![]()|
 
 ### Lovelace yaml
 
-Track 00-07:
+Track 001.000-007:
 
 ```yaml
 type: entities
 entities:
-  - entity: sensor.futtog_001_esphome_name_ip_address
-    name: IP Address
-    secondary_info: none
-  - entity: binary_sensor.futtog_001_track_00
-    name: 'Track #00'
-  - entity: binary_sensor.futtog_001_track_01
-    name: 'Track #01'
-  - entity: binary_sensor.futtog_001_track_02
-    name: 'Track #02'
-  - entity: binary_sensor.futtog_001_track_03
-    name: 'Track #03'
-  - entity: binary_sensor.futtog_001_track_04
-    name: 'Track #04'
-  - entity: binary_sensor.futtog_001_track_05
-    name: 'Track #05'
-  - entity: binary_sensor.futtog_001_track_06
-    name: 'Track #06'
-  - entity: binary_sensor.futtog_001_track_07
-    name: 'Track #07'
-title: Track 00-07
+  - entity: sensor.futtog_001_futtog_001_ip_address
+  - entity: binary_sensor.futtog_001_track_000
+  - entity: binary_sensor.futtog_001_track_001
+  - entity: binary_sensor.futtog_001_track_002
+  - entity: binary_sensor.futtog_001_track_003
+  - entity: binary_sensor.futtog_001_track_004
+  - entity: binary_sensor.futtog_001_track_005
+  - entity: binary_sensor.futtog_001_track_006
+  - entity: binary_sensor.futtog_001_track_007
+title: Track 001.000-007
 state_color: true
 
 ```
 
-Track 08-15:
+Track 001.100-107:
 
 ```yaml
 type: entities
 entities:
-  - entity: sensor.futtog_001_esphome_name_ip_address
-    name: IP Address
-  - entity: binary_sensor.futtog_001_track_08
-    name: 'Track #08'
-  - entity: binary_sensor.futtog_001_track_09
-    name: 'Track #09'
-  - entity: binary_sensor.futtog_001_track_10
-    name: 'Track #10'
-  - entity: binary_sensor.futtog_001_track_11
-    name: 'Track #11'
-  - entity: binary_sensor.futtog_001_track_12
-    name: 'Track #12'
-  - entity: binary_sensor.futtog_001_track_13
-    name: 'Track #13'
-  - entity: binary_sensor.futtog_001_track_14
-    name: 'Track #14'
-  - entity: binary_sensor.futtog_001_track_15
-    name: 'Track #15'
-title: Track 08-15
+  - entity: sensor.futtog_001_futtog_001_ip_address
+  - entity: binary_sensor.futtog_001_track_100
+  - entity: binary_sensor.futtog_001_track_101
+  - entity: binary_sensor.futtog_001_track_102
+  - entity: binary_sensor.futtog_001_track_103
+  - entity: binary_sensor.futtog_001_track_104
+  - entity: binary_sensor.futtog_001_track_105
+  - entity: binary_sensor.futtog_001_track_106
+  - entity: binary_sensor.futtog_001_track_107
+title: Track 001.100-107
 state_color: true
 
 ```
