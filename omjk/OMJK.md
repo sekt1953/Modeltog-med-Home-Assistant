@@ -24,10 +24,11 @@
 
 ## LED Controler
 
+* Fritzing file: [LED Controler](./Fritzing/LED_Controler.fzz)
+
 |Schematic|
 |:---:|
-|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-17%2012-51-40.png)|
-
+|![Schematic3](./Images/Sk%C3%A6rmbillede%20fra%202023-03-17%2012-51-40.png)|
 
 ## ESPHome
 
