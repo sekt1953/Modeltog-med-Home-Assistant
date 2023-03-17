@@ -1,6 +1,10 @@
 # Modeltog med Home Assistant og ESPHome
 
-![](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2018-18-34.png)
+![lovelace](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-17%2014-30-21.png)
+
+|Marklin|OMJK|
+|:---:|:---:|
+|![](./marklin/Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2022-30-48.png)  |![prototype](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-16%2019-57-49.png)|
 
 * Marklin version af styring 
   * [Lars's Marklin anlæg](./marklin/Marklin.md)
