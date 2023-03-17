@@ -13,7 +13,7 @@
   * [Rademacher WR-Typ 922 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-922-printplade-til-eksperimenter-hardt-papir-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-521214 "conradelektronik.dk")
 * CPU
   * [ESP32 DEV KIT DOIT Udviklingsboard](https://ebits.dk/products/esp32-dev-kit-doit-udviklingsboard?_pos=2&_sid=e219da91c&_ss=r "ebits.dk")
-    * [Sådan løses CH340 USB til Serial Problem](https://unix.stackexchange.com/a/670637 "ebits.dk")
+    * [Sådan løses CH340 USB til Serial Problem](https://unix.stackexchange.com/a/670637 "unix.stackexchange.com")
 * IC's
   * [PCF8574P](https://softgenie.dk/ic/946-pcf8574.html "softgenie.dk")
   * [PC817 / PC847](https://softgenie.dk/ic/302-pc817-opto-coubler.html "softgenie.dk")
