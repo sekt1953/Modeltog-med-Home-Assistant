@@ -62,13 +62,13 @@ captive_portal:
 text_sensor:
   - platform: wifi_info
     ip_address:
-      name: "${esphome_name}_IP Address"
+      name: "IP Address"
     ssid:
-      name: "${esphome_name}_Connected SSID"
+      name: "Connected SSID"
     bssid:
-      name: "${esphome_name}_Connected BSSID"
+      name: "Connected BSSID"
     mac_address:
-      name: "${esphome_name}_Mac Wifi Address"
+      name: "Mac Wifi Address"
 
 i2c:
   sda: ${i2c_sda}

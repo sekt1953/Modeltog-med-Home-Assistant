@@ -30,7 +30,19 @@
   * [5557.05 LØS CRIMPHUS med LÅS 5PL MOD 2.54](https://el-supply.dk/loes-crimphus-med-laas-5pl-mod-254/varenummer/0-5557.05 "el-supply.dk")
 * Kabler
   * [5594 LEDNING MED CRIMPTERMINAL 30cm](https://el-supply.dk/soeg/?s=5594 "el-supply.dk")
-  * [Hun-til-hun dupont ledninger](https://softgenie.dk/stik-connector/55-hun-til-hun-ledninger.html "softgenie.dk")
+    * [5594.0 LEDNING MED CRIMPTERMINAL 30cm SORT](https://el-supply.dk/ledning-med-crimpterminal-30cm-sort/varenummer/0-5594.0 "el-supply.dk")
+    * [5594.1 LEDNING MED CRIMPTERMINAL 30cm BRUN](https://el-supply.dk/ledning-med-crimpterminal-30cm-brun/varenummer/0-5594.1 "el-supply.dk")
+    * [5594.2 LEDNING MED CRIMPTERMINAL 30cm RØD](https://el-supply.dk/ledning-med-crimpterminal-30cm-roed/varenummer/0-5594.2 "el-supply.dk")
+    * [5594.3 LEDNING MED CRIMPTERMINAL 30cm ORANGE](https://el-supply.dk/ledning-med-crimpterminal-30cm-orange/varenummer/0-5594.3 "el-supply.dk")
+    * [5594.4 LEDNING MED CRIMPTERMINAL 30cm GUL](https://el-supply.dk/ledning-med-crimpterminal-30cm-gul/varenummer/0-5594.4 "el-supply.dk")
+    * [5594.5 LEDNING MED CRIMPTERMINAL 30cm GRØN](https://el-supply.dk/soeg/?s=5594 "el-supply.dk")
+    * [5594.6 LEDNING MED CRIMPTERMINAL 30cm BLÅ](https://el-supply.dk/ledning-med-crimpterminal-30cm-blaa/varenummer/0-5594.6 "el-supply.dk")
+    * [5594.7 LEDNING MED CRIMPTERMINAL 30cm VIOLET](https://el-supply.dk/ledning-med-crimpterminal-30cm-violet/varenummer/0-5594.7 "el-supply.dk")
+    * [5594.8 LEDNING MED CRIMPTERMINAL 30cm GRÅ](https://el-supply.dk/ledning-med-crimpterminal-30cm-graa/varenummer/0-5594.8 "el-supply.dk")
+    * [5594.9 LEDNING MED CRIMPTERMINAL 30cm HVID](https://el-supply.dk/ledning-med-crimpterminal-30cm-hvid/varenummer/0-5594.9 "el-supply.dk")
+  * Dupont ledninger
+    * [Hun-til-hun 20 cm lange](https://softgenie.dk/stik-connector/55-hun-til-hun-ledninger.html "softgenie.dk")
+    * [Hun-til-hun 10 cm lange](https://softgenie.dk/stik-connector/844-hun-til-hun-dupont-ledninger-korte.html "softgenie.dk")
 * LED
   * [Rektangulære lysdioder](https://el-supply.dk/v-213/rektangulaere-lysdioder "el-supply.dk")
   * [100 OHM KULMODSTAND](https://el-supply.dk/100-stk-100-ohm-kulmodstand/varenummer/64-041310 "el-supply.dk")
