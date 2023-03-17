@@ -24,8 +24,8 @@
   * [5PL. PINRÆKKE M.FLIG LIGE MOD 2.54](https://el-supply.dk/5pl-pinraekke-mflig-lige-mod-254/varenummer/0-5556.05 "el-supply.dk")
   * [LØS CRIMPHUS med LÅS 5PL MOD 2.54](https://el-supply.dk/loes-crimphus-med-laas-5pl-mod-254/varenummer/0-5557.05 "el-supply.dk")
 * Kabler
-  * [Hun-til-hun dupont ledninger](https://softgenie.dk/stik-connector/55-hun-til-hun-ledninger.html)
+  * [Hun-til-hun dupont ledninger](https://softgenie.dk/stik-connector/55-hun-til-hun-ledninger.html "softgenie.dk")
 * LED
-  * [Rektangulære lysdioder](https://el-supply.dk/v-213/rektangulaere-lysdioder)
-  * [100 OHM KULMODSTAND](https://el-supply.dk/100-stk-100-ohm-kulmodstand/varenummer/64-041310)
+  * [Rektangulære lysdioder](https://el-supply.dk/v-213/rektangulaere-lysdioder "el-supply.dk")
+  * [100 OHM KULMODSTAND](https://el-supply.dk/100-stk-100-ohm-kulmodstand/varenummer/64-041310 "el-supply.dk")
 
