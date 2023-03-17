@@ -22,17 +22,7 @@
 |:---:|
 |![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-16%2019-57-49.png)|
 
-## LED Controler
-
-* Fritzing file: [LED Controler](./Fritzing/LED_Controler.fzz)
-
-|Schematic|
-|:---:|
-|![Schematic3](./Images/Sk%C3%A6rmbillede%20fra%202023-03-17%2012-51-40.png)|
-
-## ESPHome
-
-### code for ESP32
+## ESPHome ESP32 Input Controler
 
 * Note:
   * PCF8574P
@@ -48,7 +38,17 @@
     * Adresserbar til hex:
     * 0x20 0x21 0x22 0x23 0x24  0x25 0x26 0x27
 
-#### Link til: [ESP32 inputinterface yaml](./yaml/esp32_input.yaml)
+### Link til: [ESP32 input controler yaml code](./yaml/esp32_input.yaml)
+
+<hr>
+
+## LED Controler
+
+* Fritzing file: [LED Controler](./Fritzing/LED_Controler.fzz)
+
+|Schematic|
+|:---:|
+|![Schematic3](./Images/Sk%C3%A6rmbillede%20fra%202023-03-17%2012-51-40.png)|
 
 ## Home Assistant
 
