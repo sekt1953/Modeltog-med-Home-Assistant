@@ -22,12 +22,19 @@
 |:---:|
 |![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-16%2019-57-49.png)|
 
+## LED Controler
+
+|Schematic|
+|:---:|
+|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-17%2012-51-40.png)|
+
+
 ## ESPHome
 
 ### code for ESP32
 
 * Note:
-  * PCF8574P 
+  * PCF8574P
     * 8bit portudvidelse I2C (2 wire) interface DIL16
     * Adresserbar til hex:
     * 0x20 0x21 0x22 0x23 0x24  0x25 0x26 0x27
