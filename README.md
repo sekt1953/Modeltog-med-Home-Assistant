@@ -16,14 +16,16 @@
     * [Sådan løses CH340 USB til Serial Problem](https://unix.stackexchange.com/a/670637 "unix.stackexchange.com")
 * IC's
   * [PCF8574P](https://softgenie.dk/ic/946-pcf8574.html "softgenie.dk")
+  * [PCF8574AP ](https://softgenie.dk/ic/259-pcf8574ap.html "softgenie.dk")
   * [PC817 / PC847](https://softgenie.dk/ic/302-pc817-opto-coubler.html "softgenie.dk")
 * Pin Header
   * [IC sokkel række - 40pin](https://softgenie.dk/ic-sokler/293-ic-sokel-raekke-40pin.html "softgenie.dk")
   * [40 pin stiftrække han 1 række](https://softgenie.dk/stik-connector/263-40-pin-stiftraekke-han-1-raekke.html "softgenie.dk")
   * [Stift hun 2.54mm 1 række](https://softgenie.dk/stik-connector/3112-stift-hun-254mm-1-raekke.html#/pins-40_pins "softgenie.dk")
-  * [5PL. PINRÆKKE M.FLIG LIGE MOD 2.54](https://el-supply.dk/5pl-pinraekke-mflig-lige-mod-254/varenummer/0-5556.05 "el-supply.dk")
-  * [LØS CRIMPHUS med LÅS 5PL MOD 2.54](https://el-supply.dk/loes-crimphus-med-laas-5pl-mod-254/varenummer/0-5557.05 "el-supply.dk")
+  * [5556.05 5PL. PINRÆKKE M.FLIG LIGE MOD 2.54](https://el-supply.dk/5pl-pinraekke-mflig-lige-mod-254/varenummer/0-5556.05 "el-supply.dk")
+  * [5557.05 LØS CRIMPHUS med LÅS 5PL MOD 2.54](https://el-supply.dk/loes-crimphus-med-laas-5pl-mod-254/varenummer/0-5557.05 "el-supply.dk")
 * Kabler
+  * [5594 LEDNING MED CRIMPTERMINAL 30cm](https://el-supply.dk/soeg/?s=5594 "el-supply.dk")
   * [Hun-til-hun dupont ledninger](https://softgenie.dk/stik-connector/55-hun-til-hun-ledninger.html "softgenie.dk")
 * LED
   * [Rektangulære lysdioder](https://el-supply.dk/v-213/rektangulaere-lysdioder "el-supply.dk")
