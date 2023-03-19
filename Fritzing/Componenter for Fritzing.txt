@@ -1,0 +1,4 @@
+Componenter for Fritzing:
+
+ https://github.com/jorgechacblogspot/librerias_fritzing
+  30pin ESP32 https://github.com/jorgechacblogspot/librerias_fritzing/blob/main/DOIT%20Esp32%20DevKit%20v1%20improved.fzpz
