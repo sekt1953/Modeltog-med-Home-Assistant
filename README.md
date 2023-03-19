@@ -21,6 +21,7 @@
 * IC's
   * [PCF8574P](https://softgenie.dk/ic/946-pcf8574.html "softgenie.dk")
   * [PCF8574AP ](https://softgenie.dk/ic/259-pcf8574ap.html "softgenie.dk")
+  * [PCF8575](https://softgenie.dk/diverse/1534-i2c-16-portudvidelse-arduiniraspberry.html "softgenie.dk")
   * [PC817 / PC847](https://softgenie.dk/ic/302-pc817-opto-coubler.html "softgenie.dk")
 * Pin Header
   * [IC sokkel række - 40pin](https://softgenie.dk/ic-sokler/293-ic-sokel-raekke-40pin.html "softgenie.dk")
