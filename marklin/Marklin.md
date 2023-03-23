@@ -4,7 +4,7 @@
 
 |Schematic|
 |:---:|
-|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-22%2022-16-50.png)
+|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-23%2012-58-17.png)
 
 |Prototype|
 |:---:|
