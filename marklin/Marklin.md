@@ -8,7 +8,7 @@
 
 |Prototype|
 |:---:|
-|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-23%2012-06-00.png) |
+|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-23%2012-45-14.png) |
 
 |PCB|
 |:---:|
