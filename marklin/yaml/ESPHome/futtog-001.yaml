@@ -143,8 +143,6 @@ api:
     then:
       - dfplayer.volume_down
 
-
-
 ota:
   password: "f63e9344a092d132836ace8bb0a053c9"
 
