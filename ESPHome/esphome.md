@@ -4,6 +4,8 @@
 
 koden futtog_00.yaml består af følgende afsnit
 
+[Klik her for at se den komplette kode til futtog-00.yaml](./yaml/futtog-00.yaml)
+
 * substitutions:
 * [esphome:](https://esphome.io/components/esphome.html?highlight=esphome) 
 * [esp32:](https://esphome.io/components/esp32.html?highlight=framework#esp32-platform) 

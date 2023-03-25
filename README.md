@@ -11,6 +11,13 @@
 * OMJK version af styring [OMJK hjemmeside](https://www.facebook.com/omjk1949)
   * [Sporbesat detector for OMJK's anlæg](./omjk/OMJK.md)
 
+## ESPHome
+
+Her findes demokode til ESP32 futtog_00
+og beskrivelse af koden.
+
+### [ESPHome Futtog_00](./ESPHome/esphome.md)
+
 ## Matrialer
 
 * PCB
