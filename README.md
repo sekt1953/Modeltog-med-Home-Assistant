@@ -24,6 +24,13 @@ og beskrivelse af koden.
     * Lydmoduel DFPlayer minni
   * [futtog-00.yaml](./ESPHome/yaml/futtog-00.yaml)
 
+## Home Assistant
+
+* Automations
+  * Spor besat indikering
+  * Baneoverskæring
+* Lovelace
+
 ## Matrialer
 
 * PCB
