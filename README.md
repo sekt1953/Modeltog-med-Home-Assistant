@@ -2,6 +2,8 @@
 
 ![lovelace](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-17%2014-30-21.png)
 
+## PCB Layout
+
 |Marklin|OMJK|
 |:---:|:---:|
 |![Marklin](./marklin/Images/Sk%C3%A6rmbillede%20fra%202023-03-23%2012-45-14.png)  |![OMJK](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-16%2019-57-49.png)|
@@ -16,7 +18,11 @@
 Her findes demokode til ESP32 futtog_00
 og beskrivelse af koden.
 
-### [ESPHome Futtog_00](./ESPHome/esphome.md)
+* [beskrivelse af yaml kode for Futtog-00](./ESPHome/esphome.md)
+  * Kode beskrivelse:
+    * Sporbesat detector 
+    * Lydmoduel DFPlayer minni
+  * [futtog-00.yaml](./ESPHome/yaml/futtog-00.yaml)
 
 ## Matrialer
 
