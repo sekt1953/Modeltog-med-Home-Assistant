@@ -13,3 +13,5 @@
 |PCB|
 |:---:|
 |![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2016-41-29.png)|
+
+[Download Fritzing file](./Fritzing/Spor_Interface_Marklin.fzz)

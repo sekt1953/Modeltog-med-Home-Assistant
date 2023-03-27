@@ -4,11 +4,11 @@
 
 ### SkindeInterface
 
-* Fritzing file: [SkindeInterface.fzz](./Fritzing/SkindeInterface.fzz)
+* Fritzing file: [SkindeInterface.fzz](./Fritzing/Sporbes%C3%A6ttelse_Ny.fzz)
 
 |Schematic|
 |:---:|
-|![Schematic1](.//Images/Sk%C3%A6rmbillede%20fra%202023-03-15%2017-32-56.png)|
+|![Schematic1](./Images/Sk%C3%A6rmbillede%20fra%202023-03-27%2019-43-19.png)|
 
 ### ESP32 & PCF8574
 
