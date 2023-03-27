@@ -4,11 +4,11 @@
 
 |Schematic|
 |:---:|
-|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-23%2012-58-17.png)
+|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-27%2019-27-50.png)
 
 |Prototype|
 |:---:|
-|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-23%2012-45-14.png) |
+|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-27%2019-28-04.png) |
 
 |PCB|
 |:---:|

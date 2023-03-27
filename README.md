@@ -6,7 +6,7 @@
 
 |Marklin|OMJK|
 |:---:|:---:|
-|![Marklin](./marklin/Images/Sk%C3%A6rmbillede%20fra%202023-03-23%2012-45-14.png)  |![OMJK](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-16%2019-57-49.png)|
+|![Marklin](./marklin/Images/Sk%C3%A6rmbillede%20fra%202023-03-27%2019-28-04.png)  |![OMJK](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-16%2019-57-49.png)|
 
 * Marklin version af styring 
   * [Lars's Marklin anlæg](./marklin/Marklin.md)
