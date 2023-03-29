@@ -25,10 +25,22 @@
 
 * Files for download:
   * HomeAssistant
-    * [Configurations Files](./yaml/HomeAssistant/Configuration/)
-      * [Helper Files](./yaml/HomeAssistant/Helpers/)
-      * [Automations Files](./yaml/HomeAssistant/Automations/)
     * [Lovelace](./yaml/HomeAssistant/lovelace/)
       * [Track.yaml](./yaml/HomeAssistant/lovelace/Track.yaml)
       * [Track occupied.yaml](./yaml/HomeAssistant/lovelace/Track%20occupied.yaml)
       * [Railway Crossing](./yaml/HomeAssistant/lovelace/Railway%20Crossing)
+
+
+### Automations Flowdiagram
+
+|Railway Crossing 01|
+|:---:|
+|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2019-57-43.png)|
+
+* Files for download:
+  * HomeAssistant
+    * [flowdiagrams](./LibreOffice%20Draw/)
+      * [Railway Crossing 01](./LibreOffice%20Draw/Railway%20Crossing%2001.odg)
+    * [Configurations Files](./yaml/HomeAssistant/Configuration/)
+      * [Helper Files](./yaml/HomeAssistant/Helpers/)
+      * [Automations Files](./yaml/HomeAssistant/Automations/)
