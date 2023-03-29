@@ -35,6 +35,10 @@ og beskrivelse af koden.
 
 * PCB
   * [Rademacher WR-Typ 922 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-922-printplade-til-eksperimenter-hardt-papir-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-521214 "conradelektronik.dk")
+  * [Rademacher WR-Typ 941 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-941-europrintplade-epoxyd-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-1-stk-529568 "conradelektronik.dk")
+* DIN 41612 Connector
+  * [Hankonnektor Samlet poltal 96 Antal rækker 3](https://www.conradelektronik.dk/p/tru-components-tc-a-cm96abcr-203-hankonnektor-samlet-poltal-96-antal-rkker-3-1-stk-1586479 "conradelektronik.dk")
+  * [ERNI 224470 Multistikfatning Samlet poltal 96 Antal rækker](https://www.conradelektronik.dk/p/erni-224470-multistikfatning-samlet-poltal-96-antal-rkker-3-1-stk-1169120 "conradelektronik.dk")
 * CPU
   * [ESP32 DEV KIT DOIT Udviklingsboard](https://ebits.dk/products/esp32-dev-kit-doit-udviklingsboard?_pos=2&_sid=e219da91c&_ss=r "ebits.dk")
     * [Sådan løses CH340 USB til Serial Problem](https://unix.stackexchange.com/a/670637 "unix.stackexchange.com")
@@ -43,6 +47,7 @@ og beskrivelse af koden.
   * [PCF8574AP ](https://softgenie.dk/ic/259-pcf8574ap.html "softgenie.dk")
   * [PCF8575](https://softgenie.dk/diverse/1534-i2c-16-portudvidelse-arduiniraspberry.html "softgenie.dk")
   * [PC817 / PC847](https://softgenie.dk/ic/302-pc817-opto-coubler.html "softgenie.dk")
+  * [TLP620-4](https://el-supply.dk/tlp620-4-optokobler-55v-50ma-5kv-dil16/varenummer/0-386TLP620-4 "EL-Supply")
 * Pin Header
   * [IC sokkel række - 40pin](https://softgenie.dk/ic-sokler/293-ic-sokel-raekke-40pin.html "softgenie.dk")
   * [40 pin stiftrække han 1 række](https://softgenie.dk/stik-connector/263-40-pin-stiftraekke-han-1-raekke.html "softgenie.dk")
