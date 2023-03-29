@@ -15,6 +15,10 @@
       * [futtog-01.yaml](./yaml/ESPHome/futtog-01.yaml)
       * [secrets.yaml](./yaml/ESPHome/secrets.yaml)
 
+---
+
+## Home Assistant interface for sporbesat detektor
+
 |Home Assistant|
 |:---:|
 |![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2017-42-37.png)|
