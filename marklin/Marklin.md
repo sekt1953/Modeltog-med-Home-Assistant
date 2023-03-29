@@ -35,7 +35,7 @@
 
 |Railway Crossing 01|
 |:---:|
-|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2019-57-43.png)|
+|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2020-08-42.png)|
 
 * Files for download:
   * HomeAssistant
