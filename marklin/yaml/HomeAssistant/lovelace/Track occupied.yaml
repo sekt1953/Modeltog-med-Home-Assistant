@@ -1,0 +1,22 @@
+type: vertical-stack
+cards:
+  - type: entities
+    entities:
+      - entity: input_boolean.trackoccupied_00_00
+      - entity: input_boolean.trackoccupied_00_01
+      - entity: input_boolean.trackoccupied_00_02
+      - entity: input_boolean.trackoccupied_00_03
+      - entity: input_boolean.trackoccupied_00_04
+      - entity: input_boolean.trackoccupied_00_05
+      - entity: input_boolean.trackoccupied_00_06
+      - entity: input_boolean.trackoccupied_00_07
+      - entity: input_boolean.trackoccupied_00_10
+      - entity: input_boolean.trackoccupied_00_11
+      - entity: input_boolean.trackoccupied_00_12
+      - entity: input_boolean.trackoccupied_00_13
+      - entity: input_boolean.trackoccupied_00_14
+      - entity: input_boolean.trackoccupied_00_15
+      - entity: input_boolean.trackoccupied_00_16
+      - entity: input_boolean.trackoccupied_00_17
+    title: Track occupied
+    state_color: true

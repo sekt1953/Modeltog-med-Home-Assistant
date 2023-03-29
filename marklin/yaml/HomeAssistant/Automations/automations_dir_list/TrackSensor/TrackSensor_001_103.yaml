@@ -1,0 +1,40 @@
+id: c20fc568-56b5-4f81-b7d6-584f24bd2bea
+alias: TrackSensor_00_13
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - binary_sensor.futtog_00_13
+    from: "off"
+    to: "on"
+    id: "ON"
+  - platform: state
+    entity_id:
+      - binary_sensor.futtog_00_13
+    from: "on"
+    to: "off"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 1
+    id: "OFF"
+condition: []
+action:
+  - choose:
+      - conditions:
+          - condition: trigger
+            id: "ON"
+        sequence:
+          - service: input_boolean.turn_on
+            data: {}
+            target:
+              entity_id: input_boolean.trackoccupied_00_13
+      - conditions:
+          - condition: trigger
+            id: "OFF"
+        sequence:
+          - service: input_boolean.turn_off
+            data: {}
+            target:
+              entity_id: input_boolean.trackoccupied_00_13
+mode: single

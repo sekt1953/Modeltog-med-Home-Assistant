@@ -1,0 +1,28 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# Result is a LIST!
+# Each file is an item in the list.
+automation split: !include_dir_list ./automations_dir_list
+
+# Merge contents of all files.
+input_boolean: !include_dir_merge_named ./input_boolean_merge_named
+
+
+
+recorder:
+  db_url: !secret maria_db
+  

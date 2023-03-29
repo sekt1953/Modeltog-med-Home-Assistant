@@ -1,0 +1,9 @@
+type: vertical-stack
+cards:
+  - type: entities
+    entities:
+      - entity: input_boolean.railwaycrossing_lamp
+      - entity: input_boolean.railwaycrossing_bell
+      - entity: input_boolean.railwaycrossing_barriers
+    state_color: true
+    title: Railway Crossing

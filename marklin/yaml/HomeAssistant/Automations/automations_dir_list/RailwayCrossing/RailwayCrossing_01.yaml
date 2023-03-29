@@ -1,0 +1,73 @@
+id: f9190b62-439f-4450-8419-4b4531ce1ce2
+alias: "Railway Crossing 01"
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - input_boolean.trackoccupied_00_03
+      - input_boolean.trackoccupied_00_05
+    from: "off"
+    to: "on"
+    id: DOWN
+  - platform: state
+    entity_id:
+      - input_boolean.trackoccupied_00_04
+    from: "on"
+    to: "off"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 5
+    id: UP
+    enabled: true
+condition: []
+action:
+  - choose:
+      - conditions:
+          - condition: state
+            entity_id: input_boolean.trackoccupied_00_04
+            state: "off"
+          - condition: trigger
+            id: DOWN
+        sequence:
+          - service: esphome.futtog_00_dfplayer_set_volume
+            data:
+              volume: 18
+          - service: esphome.futtog_00_dfplayer_play
+            data:
+              file: 1
+          - service: input_boolean.turn_on
+            data: {}
+            target:
+              entity_id:
+                - input_boolean.railwaycrossing_lamp
+                - input_boolean.railwaycrossing_bell
+          - delay:
+              hours: 0
+              minutes: 0
+              seconds: 0
+              milliseconds: 500
+          - service: input_boolean.turn_on
+            data: {}
+            target:
+              entity_id: input_boolean.railwaycrossing_barriers
+      - conditions:
+          - condition: trigger
+            id: UP
+        sequence:
+          - service: input_boolean.turn_off
+            data: {}
+            target:
+              entity_id: input_boolean.railwaycrossing_barriers
+          - delay:
+              hours: 0
+              minutes: 0
+              seconds: 0
+              milliseconds: 500
+          - service: input_boolean.turn_off
+            data: {}
+            target:
+              entity_id:
+                - input_boolean.railwaycrossing_lamp
+                - input_boolean.railwaycrossing_bell
+mode: single

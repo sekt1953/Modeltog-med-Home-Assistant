@@ -1,0 +1,32 @@
+trackoccupied_00_10:
+  name: "Track Occupied 00,10"
+  initial: false
+  icon: mdi:train
+trackoccupied_00_11:
+  name: "Track Occupied 00,11"
+  initial: false
+  icon: mdi:train
+trackoccupied_00_12:
+  name: "Track Occupied 00,12"
+  initial: false
+  icon: mdi:train
+trackoccupied_00_13:
+  name: "Track Occupied 00,13"
+  initial: false
+  icon: mdi:train
+trackoccupied_00_14:
+  name: "Track Occupied 00,14"
+  initial: false
+  icon: mdi:train
+trackoccupied_00_15:
+  name: "Track Occupied 00,15"
+  initial: false
+  icon: mdi:train
+trackoccupied_00_16:
+  name: "Track Occupied 00,16"
+  initial: false
+  icon: mdi:train
+trackoccupied_00_17:
+  name: "Track Occupied 00,17"
+  initial: false
+  icon: mdi:train

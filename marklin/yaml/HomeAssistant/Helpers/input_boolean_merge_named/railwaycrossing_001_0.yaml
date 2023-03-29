@@ -1,0 +1,14 @@
+# railway crossing
+railwaycrossing_lamp:
+  name: "Railway crossing Lamp"
+  initial: false
+  icon: mdi:led-off
+railwaycrossing_bell:
+  name: "Railway crossing Bell"
+  initial: false
+  icon: mdi:bell
+railwaycrossing_barriers:
+  name: "Railway crossing Barriers"
+  initial: false
+  icon: mdi:boom-gate-arrow-up
+
