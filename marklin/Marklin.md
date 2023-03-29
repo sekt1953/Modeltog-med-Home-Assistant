@@ -17,7 +17,7 @@
 
 ---
 
-## Home Assistant interface for sporbesat detektor
+## Home Assistant interface for sporbesat view
 
 |Home Assistant|
 |:---:|
