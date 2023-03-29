@@ -30,12 +30,11 @@
       * [Track occupied.yaml](./yaml/HomeAssistant/lovelace/Track%20occupied.yaml)
       * [Railway Crossing](./yaml/HomeAssistant/lovelace/Railway%20Crossing)
 
-
 ### Automations Flowdiagram
 
-|Railway Crossing 01|
-|:---:|
-|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2020-08-42.png)|
+|Track Sensor xx|Railway Crossing 01|
+|:---:|:---:|
+|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2020-56-39.png) |![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2020-08-42.png)|
 
 * Files for download:
   * HomeAssistant
