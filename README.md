@@ -1,6 +1,6 @@
 # Modeltog med Home Assistant og ESPHome
 
-![lovelace](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-17%2014-30-21.png)
+![lovelace](./marklin/Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2017-42-37.png)
 
 ## PCB Layout
 
