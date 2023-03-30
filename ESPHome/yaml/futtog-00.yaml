@@ -210,6 +210,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_01"
     pin:
@@ -218,6 +221,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_02"
     pin:
@@ -226,6 +232,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_03"
     pin:
@@ -234,6 +243,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_04"
     pin:
@@ -242,6 +254,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_05"
     pin:
@@ -250,6 +265,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_06"
     pin:
@@ -258,6 +276,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_07"
     pin:
@@ -266,6 +287,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
 
 # Individual input hub1
 # binary_sensor:
@@ -277,6 +301,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_11"
     pin:
@@ -285,6 +312,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_12"
     pin:
@@ -293,6 +323,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_13"
     pin:
@@ -301,6 +334,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_14"
     pin:
@@ -309,6 +345,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_15"
     pin:
@@ -317,6 +356,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_16"
     pin:
@@ -325,6 +367,9 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
   - platform: gpio
     name: "_17"
     pin:
@@ -333,3 +378,6 @@ binary_sensor:
       mode:
         input: true
       inverted: true
+    filters:
+      - delayed_on: 100ms
+      - delayed_off: 100ms
