@@ -17,15 +17,21 @@
 
 ---
 
-## Home Assistant interface for sporbesat view
+## Home Assistant lovelace's view's
+
+|HomeView|
+|:---:|
+|![HomeView](./Images/Sk%C3%A6rmbillede%20fra%202023-04-01%2015-58-09.png) |
 
 |TrackView|
 |:---:|
 |![TrackView](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2017-42-37.png)|
 
-|HomeView|
-|:---:|
-|![HomeView](./Images/Sk%C3%A6rmbillede%20fra%202023-04-01%2015-58-09.png) |
+|HomeView Configuration|TrackView Configuration|
+|:---:|:---:|
+|![HomeViewConfig](./Images/Sk%C3%A6rmbillede%20fra%202023-04-01%2016-20-01.png) |![TrackViewConfig](./Images/Sk%C3%A6rmbillede%20fra%202023-04-01%2016-20-15.png)|
+
+### View Configurations
 
 * Files for download:
   * HomeAssistant
