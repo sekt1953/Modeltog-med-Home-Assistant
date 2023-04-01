@@ -19,13 +19,18 @@
 
 ## Home Assistant interface for sporbesat view
 
-|Home Assistant|
+|TrackView|
 |:---:|
-|![](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2017-42-37.png)|
+|![TrackView](./Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2017-42-37.png)|
+
+|HomeView|
+|:---:|
+|![HomeView](./Images/Sk%C3%A6rmbillede%20fra%202023-04-01%2015-58-09.png) |
 
 * Files for download:
   * HomeAssistant
     * [Lovelace](./yaml/HomeAssistant/lovelace/)
+      * [HomeView](./yaml/HomeAssistant/lovelace/HomeView.yaml)
       * [Track.yaml](./yaml/HomeAssistant/lovelace/Track.yaml)
       * [Track occupied.yaml](./yaml/HomeAssistant/lovelace/Track%20occupied.yaml)
       * [Railway Crossing](./yaml/HomeAssistant/lovelace/Railway%20Crossing)
