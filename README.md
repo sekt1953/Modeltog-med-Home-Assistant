@@ -37,9 +37,12 @@ og beskrivelse af koden.
   * [Rademacher WR-Typ 922 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-922-printplade-til-eksperimenter-hardt-papir-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-521214 "conradelektronik.dk")
   * [Rademacher WR-Typ 941 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-941-europrintplade-epoxyd-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-1-stk-529568 "conradelektronik.dk")
   * [Rademacher WR-Typ 821 Hulprint 5.08 mm](https://www.conradelektronik.dk/p/rademacher-wr-typ-821-printplade-hardt-papir-l-x-b-160-mm-x-100-mm-35-m-rastermal-508-mm-indhold-1-stk-527232 "conradelektronik.dk")
-* DIN 41612 Connector
-  * [Hankonnektor Samlet poltal 96 Antal rækker 3](https://www.conradelektronik.dk/p/tru-components-tc-a-cm96abcr-203-hankonnektor-samlet-poltal-96-antal-rkker-3-1-stk-1586479 "conradelektronik.dk")
-  * [ERNI 224470 Multistikfatning Samlet poltal 96 Antal rækker](https://www.conradelektronik.dk/p/erni-224470-multistikfatning-samlet-poltal-96-antal-rkker-3-1-stk-1169120 "conradelektronik.dk")
+* PCB Connector
+  * DIN 41612 Connector
+    * [Hankonnektor Samlet poltal 96 Antal rækker 3](https://www.conradelektronik.dk/p/tru-components-tc-a-cm96abcr-203-hankonnektor-samlet-poltal-96-antal-rkker-3-1-stk-1586479 "conradelektronik.dk")
+    * [ERNI 224470 Multistikfatning Samlet poltal 96 Antal rækker](https://www.conradelektronik.dk/p/erni-224470-multistikfatning-samlet-poltal-96-antal-rkker-3-1-stk-1169120 "conradelektronik.dk")
+  * Screw Terminal Blocks  
+    * [KF128 2.54mm PCB Mini Screw Terminal Blocks](https://www.aliexpress.com/item/1005001677869988.html?spm=a2g0o.productlist.main.1.dbd222fdV7W0to&algo_pvid=aa72d057-3d1a-4c99-b944-2046c7ceadf4&algo_exp_id=aa72d057-3d1a-4c99-b944-2046c7ceadf4-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000030016966538%22%7D&pdp_npi=3%40dis%21DKK%2123.02%2117.93%21%21%21%21%21%40212250c216804576244045200d0707%2112000030016966538%21sea%21DK%210&curPageLogUid=WK4w9B6z5Rnf) 
 * CPU
   * [ESP32 DEV KIT DOIT Udviklingsboard](https://ebits.dk/products/esp32-dev-kit-doit-udviklingsboard?_pos=2&_sid=e219da91c&_ss=r "ebits.dk")
     * [Sådan løses CH340 USB til Serial Problem](https://unix.stackexchange.com/a/670637 "unix.stackexchange.com")
