@@ -4,9 +4,27 @@
 
 ## PCB Layout
 
-|Marklin|OMJK|
-|:---:|:---:|
-|![Marklin](./marklin/Images/Sk%C3%A6rmbillede%20fra%202023-03-27%2019-28-04.png)  |![OMJK](./omjk/Images/Sk%C3%A6rmbillede%20fra%202023-03-16%2019-57-49.png)|
+### Track Sensor
+
+|PCB Track Sensor|
+|:---:|
+|![PCB](./Fritzing/pcb/input_track_bb.png)  |
+
+|Schematic Track Sensor|
+|:---:|
+|![Shematic](./Fritzing/pcb/input_track_schem.png)|
+
+### Led PCB
+
+|PCB Led PCB |
+|:---:|
+|![PCB](./Fritzing/pcb/output_led_bb.png)  |
+
+|Schematic Led PCB|
+|:---:|
+|![Shematic](./Fritzing/pcb/output_led_schem.png)|
+
+## versioner for Marklin & OMJK
 
 * Marklin version af styring 
   * [Lars's Marklin anlæg](./marklin/Marklin.md)
