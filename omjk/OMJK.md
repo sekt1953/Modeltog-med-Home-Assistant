@@ -10,14 +10,14 @@
 |:---:|
 |![pcb](./Fritzing/PCB-CPU/PCB-CPU_and_Power_bb.png)|
 
-### Files
+### CPU & Power Files
 
 * Fritzing
   * [Fritzing CPU-File](./Fritzing/PCB-CPU/PCB-CPU_and_Power.fzz)
 * ESPHome yaml]
   * [CPU with TrackSensor]()
 
-### Matrialer
+### CPU & Power Matrialer
 
 * IC 
   * [ESP32 DEV KIT DOIT Udviklingsboard](https://ebits.dk/products/esp32-dev-kit-doit-udviklingsboard?_pos=2&_sid=e219da91c&_ss=r "ebits.dk")
@@ -51,11 +51,11 @@
 |:---:|
 |![Schematic1](./Fritzing/PCB-TrackInterface/TrackInterface_schem.png)|
 
-### Files
+### TrackInterface Files
 
 * [Fritzing TrackSensor-File](./Fritzing/PCB-TrackInterface/TrackInterface.fzz)
 
-### Matrialer
+### TrackInterface Matrialer
 
 * Dioder
   * 64 stk. [1N5400 ENSRETTERDIODE 50V/3A DO201 (vnr: 251N5400)](https://el-supply.dk/soeg/?s=1n5400 "el-supply.dk")
@@ -74,11 +74,11 @@
 |:---:|
 |![pcb](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_bb.png)|
 
-### Files
+### TrackSensor Files
 
 * [Fritzing TrackSensor-File](./Fritzing/PCB-TrackSensor/PCB-TrackSensor.fzz)
 
-### Matrialer
+### TrackSensor Matrialer
 
 * IC
   * 3 stk. [PCF8574](ddd)
@@ -114,7 +114,36 @@
 |:---:|
 |![pcb](./Fritzing/PCB-LedDriver/PCB-LedDriver_bb.png)|
 
+### LedDriver Files
+
 * [Fritzing LedDriver-File](./Fritzing/PCB-LedDriver/PCB-LedDriver.fzz)
+
+### LedDriver Matrialer
+
+* IC
+  * 3 stk. [PCF8574](ddd)
+* Optocopler
+  * 6 stk. [PC847-4 ]()
+* Modstande
+  * 3 stk. [MODSTANDSNETVÆRK SIL 4P 3x2K2 (vnr: 10F4422)](https://el-supply.dk/modstandsnetvaerk-sil-4p-3x2k2/varenummer/71-10F4422 "el-supply.dk")
+  * 24 stk. [100 OHM KULMODSTAND (vnr: 041310)]( https://el-supply.dk/100-stk-100-ohm-kulmodstand/varenummer/0-041310 "el-supply.dk")
+  * 24 stk. [100 stk. 330 OHM KULMODSTAND(vnr: 041333)](https://el-supply.dk/100-stk-330-ohm-kulmodstand/varenummer/0-041333 "el-supply.dk")
+* Connector
+  * Pin Header Male
+    * 3 stk. [Pin Header Male Single Row 1×40](https://ardustore.dk/produkt/pin-header-male-single-row-1x40 "ardustore.dk")
+  * Dupont Jumper Wire Male
+    * 6 stk. [10stk. Dupont Jumper Wire 1p 10cm Hun-Hun](https://arduinotech.dk/shop/dupont-jumper-wire-1p-10cm/  "Arduino Tech.dk")
+    * Dupont Connector Housing
+    * 6 stk. [4 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
+    * 15 stk. [8 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
+  * PINRÆKKE M.FLIG VINKEL MOD 2.54 5556
+    * 1 stk. [4PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.04A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.04A "el-supply.dk")
+    * 3 stk. [10PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.10A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.10A "el-supply.dk")
+  * LØS CRIMPHUS med LÅS
+    * 1 stk. [LØS CRIMPHUS med LÅS 4PL MOD 2.54 (vnr: 5557.04)](https://el-supply.dk/loes-crimphus-med-laas-6pl-mod-254/varenummer/0-5557.04 "el-supply.dk")
+    * 3 stk. [LØS CRIMPHUS med LÅS 10PL MOD 2.54](https://el-supply.dk/loes-crimphus-med-laas-10pl-mod-254/varenummer/0-5557.10 "el-supply.dk")
+* PCB
+  * [Rademacher WR-Typ 941 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-941-europrintplade-epoxyd-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-1-stk-529568 "conradelektronik.dk")
 
 <hr>
 
