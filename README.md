@@ -71,6 +71,11 @@ og beskrivelse af koden.
   * [PCF8575](https://softgenie.dk/diverse/1534-i2c-16-portudvidelse-arduiniraspberry.html "softgenie.dk")
   * [PC817 / PC847](https://softgenie.dk/ic/302-pc817-opto-coubler.html "softgenie.dk")
   * [TLP620-4](https://el-supply.dk/tlp620-4-optokobler-55v-50ma-5kv-dil16/varenummer/0-386TLP620-4 "EL-Supply")
+* Power mudule
+  * [OE-SD28V Mini DC-DC Adjustable Step Down Power Supply Module](https://www.aliexpress.com/i/33056573446.html)
+  * [ZkeeShop 10 Stücke Mini Step-Down](https://www.amazon.de/ZkeeShop-Stromversorgungsmodul-Spannungsabw%C3%A4rtswandler-Einstellbar-Spannungswandler/dp/B08CVF4BFW/ref=d_pd_sbs_sccl_2_6/257-9954418-9854261?pd_rd_w=w0GLa&content-id=amzn1.sym.e240add7-999b-4e0b-8c0e-340ec2846a97&pf_rd_p=e240add7-999b-4e0b-8c0e-340ec2846a97&pf_rd_r=WZTY9WCA03BZDF0V164Y&pd_rd_wg=Qe65w&pd_rd_r=245f3248-0d02-4e11-aa5f-ec7b31553a12&pd_rd_i=B08CVF4BFW&psc=1)
+  * [DC-DC Step Down Buck Converter ](https://www.amazon.de/Converter-LAOMAO-Einstellbar-Spannungwandler-Netzteil-gr%C3%BCn/dp/B0B932CTQJ/ref=sr_1_8?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ISR9FAXACQWV&keywords=Mini+Dc-Dc+Einstellbare&qid=1680778889&s=ce-de&sprefix=mini+dc-dc+einstellbare%2Celectronics%2C61&sr=1-8) 
+    * [TPS54233 Datasheet](https://www.ti.com/lit/ds/slus859c/slus859c.pdf?ts=1680778134540&ref_url=https%253A%252F%252Fwww.google.dk%252F)
 * Pin Header
   * [IC sokkel række - 40pin](https://softgenie.dk/ic-sokler/293-ic-sokel-raekke-40pin.html "softgenie.dk")
   * [40 pin stiftrække han 1 række](https://softgenie.dk/stik-connector/263-40-pin-stiftraekke-han-1-raekke.html "softgenie.dk")
