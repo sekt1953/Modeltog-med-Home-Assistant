@@ -81,7 +81,7 @@
 ### TrackSensor Matrialer
 
 * IC
-  * 3 stk. [PCF8574](ddd)
+  * 3 stk. [PCF8574P](https://softgenie.dk/ic/946-pcf8574.html "softgenie.dk")
 * Optocopler
   * 6 stk. [TLP620-4 OPTOKOBLER 55V 50mA 5kV DIL16 (vnr: 386TLP620-4)](https://el-supply.dk/tlp620-4-optokobler-55v-50ma-5kv-dil16/varenummer/0-386TLP620-4 "el-supply.dk")
 * Modstande
@@ -121,9 +121,9 @@
 ### LedDriver Matrialer
 
 * IC
-  * 3 stk. [PCF8574](ddd)
+  * 3 stk. [PCF8574P](https://softgenie.dk/ic/946-pcf8574.html "softgenie.dk")
 * Optocopler
-  * 6 stk. [PC847-4 ]()
+  * 6 stk. [PC847](https://softgenie.dk/ic/302-pc817-opto-coubler.html "softgenie.dk")
 * Modstande
   * 3 stk. [MODSTANDSNETVÆRK SIL 4P 3x2K2 (vnr: 10F4422)](https://el-supply.dk/modstandsnetvaerk-sil-4p-3x2k2/varenummer/71-10F4422 "el-supply.dk")
   * 24 stk. [100 OHM KULMODSTAND (vnr: 041310)]( https://el-supply.dk/100-stk-100-ohm-kulmodstand/varenummer/0-041310 "el-supply.dk")
