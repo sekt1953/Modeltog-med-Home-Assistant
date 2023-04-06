@@ -1,8 +1,6 @@
 # OMJK version af HA styring
 
-## Schematic og PCB
-
-### PCB-CPU & Power
+## PCB-CPU & Power
 
 |Schematic|
 |:---:|
@@ -47,8 +45,25 @@
 * PCB
   * [Rademacher WR-Typ 941 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-941-europrintplade-epoxyd-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-1-stk-529568 "conradelektronik.dk")
 
+## PCB-TrackInterface
 
-### PCB-TrackSensor
+|Schematic|
+|:---:|
+|![Schematic1](./Fritzing/PCB-TrackInterface/TrackInterface_schem.png)|
+
+### Files
+
+* [Fritzing TrackSensor-File](./Fritzing/PCB-TrackInterface/TrackInterface.fzz)
+
+### Matrialer
+
+* Dioder
+  * 64 stk. [1N5400 ENSRETTERDIODE 50V/3A DO201 (vnr: 251N5400)](https://el-supply.dk/soeg/?s=1n5400 "el-supply.dk")
+* SKRUETERMINAL
+  * 9 stk. [SKRUETERMINAL FOR PRINT 2PL 5.08mm](https://el-supply.dk/skrueterminal-for-print-2pl-508mm/varenummer/624-5512/2)
+* PCB
+  * 1 stk. [Rademacher WR-Typ 821 Hulprint 5.08 mm](https://www.conradelektronik.dk/p/rademacher-wr-typ-821-printplade-hardt-papir-l-x-b-160-mm-x-100-mm-35-m-rastermal-508-mm-indhold-1-stk-527232 "conradelektronik.dk")
+## PCB-TrackSensor
 
 |Schematic|
 |:---:|
