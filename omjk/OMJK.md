@@ -96,10 +96,10 @@
     * 6 stk. [4 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
     * 15 stk. [8 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
   * PINRÆKKE M.FLIG VINKEL MOD 2.54 5556
-    * 1 stk. [4PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.04A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.04A "el-supply.dk")
+    * 2 stk. [4PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.04A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.04A "el-supply.dk")
     * 3 stk. [10PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.10A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.10A "el-supply.dk")
   * LØS CRIMPHUS med LÅS
-    * 1 stk. [LØS CRIMPHUS med LÅS 4PL MOD 2.54 (vnr: 5557.04)](https://el-supply.dk/loes-crimphus-med-laas-6pl-mod-254/varenummer/0-5557.04 "el-supply.dk")
+    * 2 stk. [LØS CRIMPHUS med LÅS 4PL MOD 2.54 (vnr: 5557.04)](https://el-supply.dk/loes-crimphus-med-laas-6pl-mod-254/varenummer/0-5557.04 "el-supply.dk")
     * 3 stk. [LØS CRIMPHUS med LÅS 10PL MOD 2.54](https://el-supply.dk/loes-crimphus-med-laas-10pl-mod-254/varenummer/0-5557.10 "el-supply.dk")
 * PCB
   * [Rademacher WR-Typ 941 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-941-europrintplade-epoxyd-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-1-stk-529568 "conradelektronik.dk")
@@ -137,10 +137,10 @@
     * 6 stk. [4 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
     * 15 stk. [8 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
   * PINRÆKKE M.FLIG VINKEL MOD 2.54 5556
-    * 1 stk. [4PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.04A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.04A "el-supply.dk")
+    * 2 stk. [4PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.04A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.04A "el-supply.dk")
     * 3 stk. [10PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.10A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.10A "el-supply.dk")
   * LØS CRIMPHUS med LÅS
-    * 1 stk. [LØS CRIMPHUS med LÅS 4PL MOD 2.54 (vnr: 5557.04)](https://el-supply.dk/loes-crimphus-med-laas-6pl-mod-254/varenummer/0-5557.04 "el-supply.dk")
+    * 2 stk. [LØS CRIMPHUS med LÅS 4PL MOD 2.54 (vnr: 5557.04)](https://el-supply.dk/loes-crimphus-med-laas-6pl-mod-254/varenummer/0-5557.04 "el-supply.dk")
     * 3 stk. [LØS CRIMPHUS med LÅS 10PL MOD 2.54](https://el-supply.dk/loes-crimphus-med-laas-10pl-mod-254/varenummer/0-5557.10 "el-supply.dk")
 * PCB
   * [Rademacher WR-Typ 941 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-941-europrintplade-epoxyd-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-1-stk-529568 "conradelektronik.dk")
