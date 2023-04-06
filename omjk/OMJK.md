@@ -1,4 +1,4 @@
-# OMJK version af HA styring
+# OMJK version af Modelbane med Home Assistant
 
 ## PCB-CPU & Power
 
