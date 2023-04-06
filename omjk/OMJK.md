@@ -68,11 +68,11 @@
 
 |Schematic|
 |:---:|
-|![Schematic1](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_schem.png)|
+|![Schematic](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_schem.png)|
 
 |PCB|
 |:---:|
-|![pcb](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_bb.png)|
+|![pcb ](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_bb.png)|
 
 ### TrackSensor Files
 
