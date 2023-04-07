@@ -5,7 +5,7 @@
 
 ## versioner for Marklin & OMJK
 
-* Marklin version af styring 
+* Märklin version af styring 
   * [Lars's Marklin anlæg](./marklin/Marklin.md)
 * [OMJK](https://www.facebook.com/omjk1949)
   * [OMJK version af Modelbane med Home Assistant](./omjk/OMJK.md)
