@@ -90,7 +90,7 @@
   * 6 stk. [TLP620-4 OPTOKOBLER 55V 50mA 5kV DIL16 (vnr: 386TLP620-4)](https://el-supply.dk/tlp620-4-optokobler-55v-50ma-5kv-dil16/varenummer/0-386TLP620-4 "el-supply.dk")
 * Modstande
   * 3 stk. [MODSTANDSNETVÆRK SIL 4P 3x2K2 (vnr: 10F4422)](https://el-supply.dk/modstandsnetvaerk-sil-4p-3x2k2/varenummer/71-10F4422 "el-supply.dk")
-  * 24 stk. [100 OHM KULMODSTAND (vnr: 041310)]( https://el-supply.dk/100-stk-100-ohm-kulmodstand/varenummer/0-041310 "el-supply.dk")
+  * 24 stk. [39 OHM KULMODSTAND (vnr: 041310)]( https://el-supply.dk/100-stk-100-ohm-kulmodstand/varenummer/0-041310 "el-supply.dk")
 * Connector
   * Pin Header Male
     * 3 stk. [Pin Header Male Single Row 1×40](https://ardustore.dk/produkt/pin-header-male-single-row-1x40 "ardustore.dk")
