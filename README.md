@@ -3,7 +3,7 @@
 ![lovelace](./marklin/Images/Sk%C3%A6rmbillede%20fra%202023-03-29%2017-42-37.png)
 
 
-## versioner for Marklin & OMJK
+## versioner for Märklin & OMJK
 
 * Märklin version af styring 
   * [Lars's Marklin anlæg](./marklin/Marklin.md)
