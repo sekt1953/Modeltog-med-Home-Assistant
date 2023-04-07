@@ -7,7 +7,7 @@
 
 * Marklin version af styring 
   * [Lars's Marklin anlæg](./marklin/Marklin.md)
-* OMJK version af styring [OMJK hjemmeside](https://www.facebook.com/omjk1949)
+* [OMJK](https://www.facebook.com/omjk1949)
   * [OMJK version af Modelbane med Home Assistant](./omjk/OMJK.md)
 
 ## ESPHome
