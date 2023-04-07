@@ -42,6 +42,8 @@
     * 7 stk. [LEDNING MED CRIMPTERMINAL 30cm SORT (vnr: 5594.0)](https://el-supply.dk/ledning-med-crimpterminal-30cm-sort/varenummer/0-5594.0 "el-supply.dk")
     * 6 stk. [LEDNING MED CRIMPTERMINAL 30cm RØD (vnr: 5594.2)](https://el-supply.dk/ledning-med-crimpterminal-30cm-roed/varenummer/0-5594.2 "el-supply.dk")
     * 1 stk. [LEDNING MED CRIMPTERMINAL 30cm GUL (vnr: 5594.4)](https://el-supply.dk/ledning-med-crimpterminal-30cm-gul/varenummer/0-5594.4 "el-supply.dk")
+* Modstande
+  * 1 stk. [10k OHM KULMODSTAND (vnr: 041510)](https://el-supply.dk/100-stk-10k-ohm-kulmodstand/varenummer/64-041510 "el-supply.dk")
 * PCB
   * [Rademacher WR-Typ 941 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-941-europrintplade-epoxyd-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-1-stk-529568 "conradelektronik.dk")
 
