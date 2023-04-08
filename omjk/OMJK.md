@@ -154,6 +154,20 @@
 
 <hr>
 
+## Andre forbrugs matrialer
+
+* Lodetin
+  * [LODDETIN BLYFRI 1.0mm 100g (vnr: 7951.1)](https://el-supply.dk/loddetin-blyfri-10mm-100g/varenummer/295-7951.1 "el-supply.dk")
+* Montage tråd
+  * [FORTINNET KOBBERTRÅD 0.60mm 100g (vnr: 7404.60)](https://el-supply.dk/fortinnet-kobbertraad-060mm-100g/varenummer/381-7404.60 "el-supply.dk")
+* LØS CRIMPHUS
+  * [LØS CRIMPHUS SMAL 3PL 2.54mm (vnr: 5558.03)](https://el-supply.dk/loes-crimphus-smal-3pl-254mm/varenummer/588-5558.03 "el-supply.dk")
+  * [LØS CRIMPHUS SMAL 8PL 2.54mm (vnr: 5558.08)](https://el-supply.dk/loes-crimphus-smal-8pl-254mm/varenummer/588-5558.08 "el-supply.dk")
+  * [TERMINAL FORGYLDT HUSSERIE 5558 (vnr: 5558.BEN/G)](https://el-supply.dk/terminal-forgyldt-husserie-5558/varenummer/588-5558.BEN/G "el-supply.dk")
+  * [CRIMPTERMINAL PÅ TAPE TIL 5557.02-20 (vnr: 5557TB)](https://el-supply.dk/crimpterminal-paa-tape-til-555702-20/varenummer/0-5557TB "el-supply.dk")
+
+<hr>
+
 ## Home Assistant
 
 ### Lovelace
