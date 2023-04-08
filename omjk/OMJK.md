@@ -74,7 +74,8 @@
 
 |Schematic|
 |:---:|
-|![Schematic](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_schem.png)|
+|![Schematic](./Fritzing/PCB-TrackSensor/Sk%C3%A6rmbillede%20fra%202023-04-08%2020-48-49.png)|
+
 
 |PCB|
 |:---:|
@@ -114,7 +115,7 @@
 
 |Schematic|
 |:---:|
-|![Schematic1](./Fritzing/PCB-LedDriver/PCB-LedDriver_schem.png)|
+|![Schematic1](./Fritzing/PCB-LedDriver/Sk%C3%A6rmbillede%20fra%202023-04-08%2019-14-37.png)|
 
 |PCB|
 |:---:|
