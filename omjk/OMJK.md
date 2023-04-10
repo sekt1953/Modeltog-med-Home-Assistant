@@ -79,13 +79,13 @@
 
 |PCB|
 |:---:|
-|![pcb ](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_bb.png)|
+|![pcb ](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_bb1.png)|
 
 ### TrackSensor Files
 
 * [Fritzing TrackSensor-File](./Fritzing/PCB-TrackSensor/PCB-TrackSensor.fzz)
 
-### TrackSensor Matrialer
+### TrackSensor Matrialer 
 
 * IC
   * 3 stk. [PCF8574P](https://softgenie.dk/ic/946-pcf8574.html "softgenie.dk")
