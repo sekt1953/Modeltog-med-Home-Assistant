@@ -79,7 +79,7 @@
 
 |PCB|
 |:---:|
-|![pcb ](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_bb1.png)|
+|![pcb ](./Fritzing/PCB-TrackSensor/PCB-TrackSensor_bb.png)|
 
 ### TrackSensor Files
 
