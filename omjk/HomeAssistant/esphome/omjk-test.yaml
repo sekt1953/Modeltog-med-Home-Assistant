@@ -32,6 +32,8 @@ substitutions:
   i2c_scan: "true"
   i2c_id: "bus_a"
 
+  track_delayed_off: 1000ms
+
 esphome:
   name: ${esphome_name}
   friendly_name: ${esphome_name}
@@ -127,7 +129,7 @@ binary_sensor:
         input: true
       inverted: true
     filters:
-      - delayed_off: 100ms
+      - delayed_off: ${track_delayed_off}
   - platform: gpio
     name: "Track #001"
     pin:
@@ -137,7 +139,7 @@ binary_sensor:
         input: true
       inverted: true
     filters:
-      - delayed_off: 100ms
+      - delayed_off: ${track_delayed_off}
   - platform: gpio
     name: "Track #002"
     pin:
@@ -147,7 +149,7 @@ binary_sensor:
         input: true
       inverted: true
     filters:
-      - delayed_off: 100ms
+      - delayed_off: ${track_delayed_off}
   - platform: gpio
     name: "Track #003"
     pin:
@@ -157,7 +159,7 @@ binary_sensor:
         input: true
       inverted: true
     filters:
-      - delayed_off: 100ms
+      - delayed_off: ${track_delayed_off}
   - platform: gpio
     name: "Track #004"
     pin:
@@ -167,7 +169,7 @@ binary_sensor:
         input: true
       inverted: true
     filters:
-      - delayed_off: 100ms
+      - delayed_off: ${track_delayed_off}
   - platform: gpio
     name: "Track #005"
     pin:
@@ -177,7 +179,7 @@ binary_sensor:
         input: true
       inverted: true
     filters:
-      - delayed_off: 100ms
+      - delayed_off: ${track_delayed_off}
   - platform: gpio
     name: "Track #006"
     pin:
@@ -187,7 +189,7 @@ binary_sensor:
         input: true
       inverted: true
     filters:
-      - delayed_off: 100ms
+      - delayed_off: ${track_delayed_off}
   - platform: gpio
     name: "Track #007"
     pin:
