@@ -34,7 +34,7 @@
       * 1 stk. [4 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
       * 2 stk. [6 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
     * Dupont HUN PINRÆKKE 2.54mm
-      * [HUN PINRÆKKE 1x15 POLER 2.54mm](https://el-supply.dk/5pl-pinraekke-mflig-lige-mod-254/varenummer/5569.15  "el-supply.dk")
+      * [HUN PINRÆKKE 1x15 POLER 2.54mm](https://el-supply.dk/5pl-pinraekke-mflig-lige-mod-254/varenummer/5569.15  "el-supply.dk") 2 stk for 30 pin ESP32
   * PINRÆKKE M.FLIG VINKEL MOD 2.54 5556
     * 1 stk. [2PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.02A)](https://el-supply.dk/2pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.02A "el-supply.dk")
     * 6 stk. [4PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.04A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.04A "el-supply.dk")
