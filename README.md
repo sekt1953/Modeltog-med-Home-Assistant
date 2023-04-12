@@ -30,6 +30,11 @@ og beskrivelse af koden.
 
 ## Matrialer
 
+* Se denne side [OMJK](./omjk/OMJK.md) for 2 skinde løsning
+
+* Herundere en liste som vil blive fordelt ud på de  to løsnings modeller jeg arbejder på.
+
+
 * PCB
   * [Rademacher WR-Typ 922 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-922-printplade-til-eksperimenter-hardt-papir-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-521214 "conradelektronik.dk")
   * [Rademacher WR-Typ 941 Printplade](https://www.conradelektronik.dk/p/rademacher-wr-typ-941-europrintplade-epoxyd-l-x-b-160-mm-x-100-mm-35-m-rastermal-254-mm-indhold-1-stk-529568 "conradelektronik.dk")
@@ -47,6 +52,7 @@ og beskrivelse af koden.
 * IC's
   * [PCF8574P](https://softgenie.dk/ic/946-pcf8574.html "softgenie.dk")
   * [PCF8574AP ](https://softgenie.dk/ic/259-pcf8574ap.html "softgenie.dk")
+  * [ PCF8574N fra TI](https://el-supply.dk/ "el-supply.dk")
   * [PCF8575](https://softgenie.dk/diverse/1534-i2c-16-portudvidelse-arduiniraspberry.html "softgenie.dk")
   * [PC817 / PC847](https://softgenie.dk/ic/302-pc817-opto-coubler.html "softgenie.dk")
   * [TLP620-4](https://el-supply.dk/tlp620-4-optokobler-55v-50ma-5kv-dil16/varenummer/0-386TLP620-4 "EL-Supply")
@@ -59,6 +65,7 @@ og beskrivelse af koden.
   * [IC sokkel række - 40pin](https://softgenie.dk/ic-sokler/293-ic-sokel-raekke-40pin.html "softgenie.dk")
   * [40 pin stiftrække han 1 række](https://softgenie.dk/stik-connector/263-40-pin-stiftraekke-han-1-raekke.html "softgenie.dk")
   * [Stift hun 2.54mm 1 række](https://softgenie.dk/stik-connector/3112-stift-hun-254mm-1-raekke.html#/pins-40_pins "softgenie.dk")
+  * [HUN PINRÆKKE 1x15 POLER 2.54mm](https://el-supply.dk/5pl-pinraekke-mflig-lige-mod-254/varenummer/5569.15  "el-supply.dk")
   * [5556.05 5PL. PINRÆKKE M.FLIG LIGE MOD 2.54](https://el-supply.dk/5pl-pinraekke-mflig-lige-mod-254/varenummer/0-5556.05 "el-supply.dk")
   * [5557.05 LØS CRIMPHUS med LÅS 5PL MOD 2.54](https://el-supply.dk/loes-crimphus-med-laas-5pl-mod-254/varenummer/0-5557.05 "el-supply.dk")
 * Kabler
