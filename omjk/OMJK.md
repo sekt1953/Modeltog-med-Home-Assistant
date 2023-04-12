@@ -24,14 +24,17 @@
   * [I2C Expander - TCA9548A](https://arduinotech.dk/shop/8-channel-i2c-muti-channel-expansion-development-board/ "Arduino Tech.dk")
   * [Step Down 4.5-24 DC-DC 3A 0.8-17V Module Adjustable](https://ardustore.dk/produkt/step-down-4-5-24-dc-dc-3a-0-8-17v-module-adjustable "ardustore.dk")
 * Connector
-  * Pin Header Male
-    * 1 stk. [Pin Header Male Single Row 1×40](https://ardustore.dk/produkt/pin-header-male-single-row-1x40 "ardustore.dk")
-  * Dupont Jumper Wire Male
-    * 1 stk. [10stk. Dupont Jumper Wire 1p 10cm Hun-Hun](https://arduinotech.dk/shop/dupont-jumper-wire-1p-10cm/  "Arduino Tech.dk")
+  * Dupont
+    * Pin Header Male
+      * 1 stk. [Pin Header Male Single Row 1×40](https://ardustore.dk/produkt/pin-header-male-single-row-1x40 "ardustore.dk")
+    * Dupont Jumper Wire Male
+      * 1 stk. [10stk. Dupont Jumper Wire 1p 10cm Hun-Hun](https://arduinotech.dk/shop/dupont-jumper-wire-1p-10cm/  "Arduino Tech.dk")
     * Dupont Connector Housing
-    * 7 stk. [2 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
-    * 1 stk. [4 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
-    * 2 stk. [6 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
+      * 7 stk. [2 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
+      * 1 stk. [4 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
+      * 2 stk. [6 pol Dupont Connector Housing](https://arduinotech.dk/shop/dupont-stik-1p-10p-diy/)
+    * Dupont HUN PINRÆKKE 2.54mm
+      * [HUN PINRÆKKE 1x15 POLER 2.54mm](https://el-supply.dk/5pl-pinraekke-mflig-lige-mod-254/varenummer/5569.15  "el-supply.dk")
   * PINRÆKKE M.FLIG VINKEL MOD 2.54 5556
     * 1 stk. [2PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.02A)](https://el-supply.dk/2pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.02A "el-supply.dk")
     * 6 stk. [4PL. PINRÆKKE M.FLIG VINKEL MOD 2.54 (vnr: 5556.04A)](https://el-supply.dk/4pl-pinraekke-mflig-vinkel-mod-254/varenummer/0-5556.04A "el-supply.dk")
@@ -88,7 +91,8 @@
 ### TrackSensor Matrialer 
 
 * IC
-  * 3 stk. [PCF8574P](https://softgenie.dk/ic/946-pcf8574.html "softgenie.dk")
+  * 3 stk. [PCF8574P](https://softgenie.dk/ic/946-pcf8574.html "softgenie.dk") / 3 stk. [PCF8574N](https://el-supply.dk/  "el-supply.dk")
+
 * Optocopler
   * 6 stk. [TLP620-4 OPTOKOBLER 55V 50mA 5kV DIL16 (vnr: 386TLP620-4)](https://el-supply.dk/tlp620-4-optokobler-55v-50ma-5kv-dil16/varenummer/0-386TLP620-4 "el-supply.dk")
 * Modstande
