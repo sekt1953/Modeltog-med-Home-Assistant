@@ -1,0 +1,26 @@
+type: vertical-stack
+cards:
+  - type: entities
+    entities:
+      - entity: sensor.trackdisplay_00_connected_bssid
+        name: Connected BSSID
+      - entity: sensor.trackdisplay_00_connected_ssid
+        name: Connected SSID
+      - entity: sensor.trackdisplay_00_ip_address
+        name: IP Address
+      - entity: sensor.trackdisplay_00_mac_wifi_address
+        name: Mac Wifi Address
+      - entity: button.trackdisplay_00_trackdisplay_00_restart
+    title: Spor Tavle Frederica
+  - type: entities
+    entities:
+      - entity: sensor.tracksensor_00_connected_bssid
+        name: Connected BSSID
+      - entity: sensor.tracksensor_00_connected_ssid
+        name: Connected SSID
+      - entity: sensor.tracksensor_00_ip_address
+        name: IP Address
+      - entity: sensor.tracksensor_00_mac_wifi_address
+        name: Mac Wifi Address
+      - entity: button.tracksensor_00_tracksensor_frederica_restart
+    title: Spor Sensor Frederica
