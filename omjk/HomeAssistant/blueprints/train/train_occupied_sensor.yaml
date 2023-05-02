@@ -2,6 +2,7 @@ blueprint:
   name: Train occupied sensor
   description: switches lights on and off in the track board, depending on whether there are trains on the line.
   domain: automation
+  source_url: https://github.com/sekt1953/Modeltog-med-Home-Assistant/blob/main/omjk/HomeAssistant/blueprints/train/train_occupied_sensor.yaml
   author: Svenn-Erik K. Thomsen
   input:
     reserved_sensor:
