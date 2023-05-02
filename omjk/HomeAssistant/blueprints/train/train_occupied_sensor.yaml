@@ -102,7 +102,10 @@ action:
     - alias: "Turn off the light track unoccupied"
       conditions: 
         - condition: trigger
-          id: occupied
+          id: unoccupied
       sequence:
         - service: switch.turn_off
           target: !input red_light_target
+        - service: input_boolean.turn_off
+          target:
+            entity_id: !input reserved_sensor
