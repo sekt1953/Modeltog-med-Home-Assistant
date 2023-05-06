@@ -1,0 +1,29 @@
+Iterate through a Group
+https://community.home-assistant.io/t/iterate-through-a-group/30786
+---------------------------------------------------------------------
+
+    {%- for entity_id in states.group.outside_doors.attributes.entity_id -%}
+      {% set parts = entity_id.split('.') -%}
+      {%- if states(entity_id) == 'on' %}
+      {%- if loop.first %} {% elif loop.last %} and the {% else %}, the {% endif -%}{{ states[parts[0]][parts[1]].name }}{% endif -%}
+    {%- endfor %}
+    
+    
+{%- for entity_id in states.group.outside_doors.attributes.entity_id -%}
+{% set parts = entity_id.split(’.’) -%}
+{%- if states(entity_id) == ‘on’ %}
+{%- if loop.first %} {% elif loop.last %} and the {% else %}, the {% endif -%}{{ states[parts[0]][parts[1]].name }}{% endif -%}
+{%- endfor %}
+
+
+{%- for entity_id in states.group.outside_doors.attributes.entity_id if states(entity_id) == 'on' -%}
+  {% set parts = entity_id.split(’.’) -%}
+  {%- if loop.first %} {% elif loop.last %} and the {% else %}, the {% endif -%}{{ states[parts[0]][parts[1]].name }}
+{%- endfor %}
+
+
+---------------------------------------------------------------------
+Guidance with Groups of Binary Sensors
+https://community.home-assistant.io/t/guidance-with-groups-of-binary-sensors/135515
+
+https://community.home-assistant.io/t/guidance-with-groups-of-binary-sensors/135515/42
