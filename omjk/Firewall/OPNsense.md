@@ -47,6 +47,10 @@
 * VLAN Switch
   * 1 stk. [HPE 1820-24G-PoE+ (185W) Switch (J9983A)](https://support.hpe.com/hpesc/public/docDisplay?docId=c04625990&docLocale=en_US#N1092E)
 
+### Configure * Wi-Fi Range Extender [tp-link RE205 AC750 Wi-Fi Range Extender](https://www.tp-link.com/dk/
+
+* !!! To bee completed
+
 ### [Install](https://youtu.be/-v7MFDpjI9g "Tech Tutorials - David McKone")
 
 * Boot ***'HP Compaq 6200 Pro SFF PC'***
