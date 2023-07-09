@@ -94,12 +94,37 @@
     * Press ***'y'*** to confirm the interface assignment
   * select Option 0 ***'Logout'***
     * Press ***'Enter'***
+  * *** OPNsense.localdomain: OPNsense 23.1 ***
+    * LAN (re0)   -> v4: 192.168.1.1/24
+    * WAN (em0)   -> v4/DHCP4: xxx.xxx.xxx.xxx
 
-### Configure OPNsense via WEB-page
+### [Set interface IP address]()
 
-* Connect Workstation to Lan network
-* Open Browser
-  * Connect to 192.168.1.1
+* When prompt for Login, then login as ***root*** with password ***"opnsense"***
+  * Select option: 2
+  * Select option: 1 - LAN (re0 -static, track6)
+    * IPv4
+      * Configure IPv4 address LAN interface via DHCP?: Press ***'Enter'***
+      * Enter the new LAN IPv4 address: ***'Enter 192.168.101.1'***
+      * Enter ten new LAN IPv4 subnet bit count: ***'Enter 24'***
+      * For a LAN, press <ENTER> for none: ***'Press Enter'***
+    * IPv6
+      * Configure IPv6 address LAN interface via WAN tracking:  ***'Press N'***
+      * Configure IPv6 address LAN interface via DHCPv6 tracking:  ***'Press N'***
+      * Enter the new LAN IPv6 address.: ***'Press Enter'***
+    * Enable DHCP LAN
+      * Do you want to enable the DHCP server on LAN: ***'Press y'***
+      * Enter the start address of the IPv4 client address range: ***'Enter 192.168.101.128'***
+      * Enter the end address of the IPv4 client address range: ***'Enter 192.168.101.254'***
+      * Do you want to change the web GUI protocol from HTTPS to HTTP?: ***'Press N'***
+      * Do you want to generate a new self-signed web GUI certificate?: ***'Press N'***
+      * Restore web GUI access defaults?: ***'Press N'***
+    * *** OPNsense.localdomain: OPNsense 23.1 ***
+      * LAN (re0)   -> v4: 192.168.101.1/24
+      * WAN (em0)   -> v4/DHCP4: xxx.xxx.xxx.xxx
+
+### [Configure OPNsense from Browser]
+  * Connect to 192.168.101.1
   * Byepass warning for ***'NET ERR_CERT_AUTHORITY_INVALID'***
     * Press ***'Advanged'***
     * Press ***'Continue to 192.168.1.1 (unsafe)'***
