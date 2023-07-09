@@ -123,7 +123,7 @@
       * LAN (re0)   -> v4: 192.168.101.1/24
       * WAN (em0)   -> v4/DHCP4: xxx.xxx.xxx.xxx
 
-### [Configure OPNsense from Browser]
+### [Configure OPNsense from Browser]()
   * Connect to 192.168.101.1
   * Byepass warning for ***'NET ERR_CERT_AUTHORITY_INVALID'***
     * Press ***'Advanged'***
