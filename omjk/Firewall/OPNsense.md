@@ -39,7 +39,6 @@
 * [Home Network Guy](https://www.youtube.com/playlist?list=PLZeTcCOrKlnDlyZCIxhFZukAnA0NNWL_I)
   * [(Part 1: Overview)](https://youtu.be/54JWsGedXpo)
   * [(Part 2: OPNsense)](https://youtu.be/h2_cQxTkh3Q)
-  * [Written guides](https://homenetworkguy.com/how-to/set-up-a-fully-functioning-home-network-using-opnsense/)
 * [Gateway IT Tutorials](https://www.youtube.com/@GatewayITTutorials/search?query=OPNsense)
   * [OPNSense Firewall Rules Explained](https://youtu.be/kYFNa_zpeII)
 * [Dev Odyssey](https://www.youtube.com/@DevOdyssey/search?query=opnsense)
