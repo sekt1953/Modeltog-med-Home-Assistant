@@ -36,7 +36,7 @@
 * Tech Tutorials - David McKone
   * [How to Install OPNsense firewall](https://youtu.be/-v7MFDpjI9g?list=PLOUG593yAwIGHmd1Au6aTDOG91iGFCBA9)
 * [How to make LAN & WAN interface assignments and IP address configuration on OPNsense CLI](https://youtu.be/CocyuQ-AyOY "Zenarmor")
-* [Home Network Guy](https://www.youtube.com/playlist?list=PLZeTcCOrKlnDlyZCIxhFZukAnA0NNWL_I)
+* [Home Network Guy - Dustin Casto](https://www.youtube.com/playlist?list=PLZeTcCOrKlnDlyZCIxhFZukAnA0NNWL_I)
   * [(Part 1: Overview)](https://youtu.be/54JWsGedXpo)
   * [(Part 2: OPNsense)](https://youtu.be/h2_cQxTkh3Q)
 * [Gateway IT Tutorials](https://www.youtube.com/@GatewayITTutorials/search?query=OPNsense)
