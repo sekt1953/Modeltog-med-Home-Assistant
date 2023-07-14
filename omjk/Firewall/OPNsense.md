@@ -23,7 +23,7 @@
 * [Welcome to OPNsense’s documentation!](https://docs.opnsense.org/)
   * [OPNsense Download](https://opnsense.org/download/)
   * [OPNsense VLANs](https://docs.opnsense.org/manual/other-interfaces.html)
-* [Home Network Guy](https://homenetworkguy.com/)
+* [Home Network Guy - Dustin Casto](https://homenetworkguy.com/)
   * [Set Up a Fully Functioning Home Network Using OPNsense](https://homenetworkguy.com/how-to/set-up-a-fully-functioning-home-network-using-opnsense/ "Dustin Casto")
     * [How to Install and Configure OPNsense](https://homenetworkguy.com/how-to/install-and-configure-opnsense/ "Dustin Casto")
     * [How to Configure LAGG/LACP and VLANs using SFP Ports on Two TP-Link Switches](https://homenetworkguy.com/how-to/configure-lag-lacp-on-sfp-ports-two-tp-link-switches-with-vlans/ "Dustin Casto")
