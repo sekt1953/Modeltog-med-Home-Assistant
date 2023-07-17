@@ -33,12 +33,15 @@
   
 ### YouTube Videos
 
+* [Home Network Guy - Dustin Casto
+  * [Set Up a Fully Functioning Home Network Using OPNsense](https://www.youtube.com/playlist?list=PLZeTcCOrKlnDlyZCIxhFZukAnA0NNWL_I "Dustin Casto")
+    * [(Part 1: Overview)](https://youtu.be/54JWsGedXpo "Dustin Casto")
+    * [(Part 2: OPNsense)](https://youtu.be/h2_cQxTkh3Q "Dustin Casto")
+    * [(Part 3: Switch)](https://www.youtube.com/watch?v=4HP-YAJX56E&list=PLZeTcCOrKlnDlyZCIxhFZukAnA0NNWL_I&index=3&pp=iAQB "Dustin Casto")
+    * [(Part 4: Wireless Access Point)](https://www.youtube.com/watch?v=xiugRYzO3lQ&list=PLZeTcCOrKlnDlyZCIxhFZukAnA0NNWL_I&index=4&pp=iAQB "Dustin Casto")
 * Tech Tutorials - David McKone
   * [How to Install OPNsense firewall](https://youtu.be/-v7MFDpjI9g?list=PLOUG593yAwIGHmd1Au6aTDOG91iGFCBA9)
 * [How to make LAN & WAN interface assignments and IP address configuration on OPNsense CLI](https://youtu.be/CocyuQ-AyOY "Zenarmor")
-* [Home Network Guy - Dustin Casto](https://www.youtube.com/playlist?list=PLZeTcCOrKlnDlyZCIxhFZukAnA0NNWL_I)
-  * [(Part 1: Overview)](https://youtu.be/54JWsGedXpo)
-  * [(Part 2: OPNsense)](https://youtu.be/h2_cQxTkh3Q)
 * [Gateway IT Tutorials](https://www.youtube.com/@GatewayITTutorials/search?query=OPNsense)
   * [OPNSense Firewall Rules Explained](https://youtu.be/kYFNa_zpeII)
 * [Dev Odyssey](https://www.youtube.com/@DevOdyssey/search?query=opnsense)
