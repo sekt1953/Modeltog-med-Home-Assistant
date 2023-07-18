@@ -30,6 +30,8 @@
     * [How to Configure VLANs in OPNsense](https://homenetworkguy.com/how-to/configure-vlans-opnsense/ "Dustin Casto")
     * [How to Configure DHCP When Using VLANs in OPNsense](https://homenetworkguy.com/how-to/configure-dhcp-vlans-opnsense/ "Dustin Casto")
     * [How to Create a VLAN Only Interface in OPNsense](https://homenetworkguy.com/how-to/create-vlan-only-interface-opnsense/ "Dustin Casto")
+* HPE 1820 J9983A
+  * [How to set up LACP link aggregation with a HP 1810-8G v2 switch and FreeBSD 10.0-RELEASE](https://gist.github.com/pvalkone/9568061)
   
 ### YouTube Videos
 
@@ -47,6 +49,8 @@
 * [Dev Odyssey](https://www.youtube.com/@DevOdyssey/search?query=opnsense)
   * [Let's make a Router Firewall // How to install OPNsense on a PC](https://youtu.be/pXSucWm7JhE)
   * [Make more networks with this feature - How to Create a VLAN // OPNsense Firewall](https://youtu.be/GxTA0b1gAsU)
+* HPE 1820
+  * [ITCU Solutions - HPE 1820 Switch Configuration](https://youtu.be/BgZAbDSmU24)
 
 ## Install OPNsense
 
@@ -56,12 +60,13 @@
   * [HP Compaq 6200 Pro SFF PC](https://support.hp.com/us-en/product/hp-compaq-6200-pro-small-form-factor-pc/5037900/model/5037907?sku=XL506AV)
 * Extra NIC card
   * 2 stk. [tp-link TG-3468](https://www.tp-link.com/dk/home-networking/pci-adapter/tg-3468/)  
+  * 1 stk USP to Lan Adapter
 * Wi-Fi Range Extender
   * 1 stk. [tp-link RE205 AC750 Wi-Fi Range Extender](https://www.tp-link.com/dk/home-networking/range-extender/re205/)
 * VLAN Switch
   * 1 stk. [HPE 1820-24G-PoE+ (185W) Switch (J9983A)](https://support.hpe.com/hpesc/public/docDisplay?docId=c04625990&docLocale=en_US#N1092E)
 
-### Configure * Wi-Fi Range Extender [tp-link RE205 AC750 Wi-Fi Range Extender](https://www.tp-link.com/dk/
+### Configure * Wi-Fi Range Extender [tp-link RE205 AC750 Wi-Fi Range Extender](<https://www.tp-link.com/dk/>
 
 * !!! To bee completed
 
@@ -85,7 +90,7 @@
     * ZFS Configuration
       * Select Virtual Device Type: ***'Stripe - No Redundancy'***
       * Press ***'Enter'***
-      * Select Harddrive for Installation: 
+      * Select Harddrive for Installation:
         * Press ***'SpaceBar'*** to select ***'ada0'***
       * Press ***'Enter'***
       * Last Chanced Warning
@@ -103,7 +108,7 @@
     * Press ***'n'*** we don't to configure LAGGs
     * Press ***'n'*** we don't to configure VLANs
     * Enter the WAN interface name: ***'em0'***
-    * Enter the LAN interface name: ***'re0'***
+    * Enter the LAN interface name: ***'ue0'***
     * Press Enter to finished ***'[ENTER]'***
     * Press ***'y'*** to confirm the interface assignment
   * select Option 0 ***'Logout'***
@@ -130,11 +135,11 @@
       * Do you want to change the web GUI protocol from HTTPS to HTTP?: ***'Press N'***
       * Do you want to generate a new self-signed web GUI certificate?: ***'Press N'***
       * Restore web GUI access defaults?: ***'Press N'***
-    * *** OPNsense.localdomain: OPNsense 23.1 ***
-      * LAN (re0)   -> v4: 192.168.101.1/24
+    * ***OPNsense.localdomain: OPNsense 23.1***
+      * LAN (ue0)   -> v4: 192.168.101.1/24
       * WAN (em0)   -> v4/DHCP4: xxx.xxx.xxx.xxx
 
-### Configure OPNsense via WEB-page
+## Configure OPNsense via WEB-page
 
 * Connect Workstation to Lan network
 * Open Browser
@@ -146,4 +151,134 @@
     * Username: ***'root'***
     * Password:_***'opnsense'***
     * Press ***'Enter'***
-    
+
+### Interface Configuration
+
+***Interfaces > Settings***
+
+|Option|Value|
+|:---|:---|
+|Hardware CRC|Check “Disable hardware checksum offload” (if not already checked)|
+|Hardware TSO|Check “Disable hardware TCP segmentation offload” (if not already checked)|
+|Hardware LRO|Check “Disable hardware large receive offload” (if not already checked)|
+|VLAN Hardware Filtering|Choose the “Disable VLAN Hardware Filtering” option|
+
+***Interfaces > Other Types > LAGG***
+
+|Option|Value|
+|:---|:---|
+|Parent interface|Select the interfaces to be in a LAGG (in this example: igb2 and igb3)|
+|Lag proto|LACP (you will need a switch which supports LACP – configuration is described later)|
+|Description|VLAN LAGG (you may enter your own value here)|
+|MTU|Leave blank to use default value|
+
+***Interfaces > Other Types > VLAN***
+
+|VLAN Tag|VLAN Description|Purpose|
+|:---|:---|:---|
+|10|Office|For PCs, laptops, phones|
+|20|Train|For HA, Tracksensor, Leddriver|
+|30|IPCAM|Isolated network for IP cameras (for local access only)|
+
+#### Create the VLANs by navigating to the “Interfaces > Other Types > VLAN” page
+
+|Option|Value|
+|:---|:---|
+|Device|Leave empty to automatically generate a name|
+|Parent|lagg0 (use the LAGG interface as the parent for all VLANs)|
+|VLAN tag|Use the values in the table above for each VLAN|
+|VLAN priority|You may use the default “Best Effort” or select priorities (not sure how much it impacts actual performance)|
+|Description|Use the values in the table above for each VLAN (or use your own)|
+
+Press: ***Apply***
+
+#### Interfaces > Assignments
+
+|Network Port|Description|
+|:---|:---|
+|vlan01 Office (Parent: lagg0, Tag: 10)|Office|
+|vlan02 Train (Parent: lagg0, Tag: 20)|Train|
+|vlan03 IPCAM (Parent: lagg0, Tag: 30)|IPCAM|
+
+Click the “Save” button when you are finished.
+
+***Interfaces > [WAN]***
+
+|Option|Value|
+|:---|:---|
+|Enable|**“Enable Interface”** should be checked by default by the OPNsense installation|
+|Lock|**Check** “Prevent interface removal” so you cannot easily remove the interface from the “Interfaces > Assignments” page|
+|Description|WAN (the default value from the OPNsense installation)|
+|Block private networks|**Unchecked** (should be checked if connected directly to the Internet, otherwise you should uncheck it)|
+|Block bogon networks|**Unchecked** (should be checked if connected directly to the Internet, otherwise you should uncheck it)|
+|IPv4 Configuration Type|**DHCP**|
+|IPv6 Configuration Type|**None**|
+
+***Interfaces > [LAN], [Office], [Train] & [IPCam]***
+
+|Option|Value|
+|:---|:---|
+|Enable|**“Enable Interface”** should be checked by default by the OPNsense installation|
+|Lock|**Check** “Prevent interface removal” so you cannot easily remove the interface from the “Interfaces > Assignments” page|
+|Block private networks|**Unchecked** (all internal networks should have this unchecked)|
+|Block bogon networks|**Unchecked** (all internal networks should have this unchecked)|
+|IPv4 Configuration Type|**Static IPv4**|
+|IPv6 Configuration Type|Track Interface (if your ISP allows prefix delegations)|
+|IPv4 Upstream Gateway|Auto-detect|
+|IPv6 Interface|WAN|
+|Manual configuration|**Check** “Allow manual adjustment of DHCPv6 and Router Advertisements”|
+
+And use the following IPv4/IPv6 values in the table below for each corresponding interface:
+
+|Interface|Description|IPv4 address|
+|:---|:---|:---|
+|[LAN]|LAN|192.168.101.1/24|
+|[Office]|Office|192.168.110.1/24|
+|[Train]|Train|192.168.120.1/24|
+|[IPCAM]|IPCAM|192.168.130.1/24|
+
+### DHCP Configuration
+
+***Services > DHCPv4 > Page***
+
+|Interface|Range from|Range to|
+|:---|:---|:---|
+|[LAN]|192.168.101.128|192.168.1.254|
+|[DMZ]|192.168.110.128|192.168.110.254|
+|[USER]|192.168.120.128|192.168.120.254|
+|[IPCAM]|192.168.130.128|192.168.130.254|
+
+***“Services > DHCPv4 > Leases”***
+
+|Interface|MAC address|IP address|Hostname
+|:---|:---|:---|:---|
+|[LAN]||192.168.101.2|hpe1820|
+|[Office]||192.168.110.8|printer|
+|[Office]||192.168.110.9|wdmycloud|
+|[Office]||192.168.110.10|tvpc|
+
+### Firewall Configuration
+
+***Firewall > Aliases***
+
+|Option|Value|
+|:---|:---|
+|Enabled|Checked|
+|Name|PrivateNetworks|
+|Type|Network(s)|
+|Content|10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16|
+|Description|All local networks|
+
+***Firewall: Rules: [LAN]***
+
+
+## HPE 1820 J9983A
+
+#### [Set up LACP on the switch](https://gist.github.com/pvalkone/9568061)
+
+-------------------------
+
+1) Log into the switch management interface (by default at <http://192.168.2.10/>).
+2) Navigate to Trunks > Trunk Configuration
+3) Set up a new trunk by giving it a name, choosing "LACP Active" mode and the ports you'd like to aggregate.
+4) Click "Apply".
