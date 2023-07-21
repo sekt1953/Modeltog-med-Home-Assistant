@@ -35,7 +35,7 @@ Press: ***[Apply]***
 |Interface (ID )|Network port|
 |:---|:---|
 |WAN (wan)|em0 (2c:41:38:8d:26:f9)|
-|LAN (lan)|ue0 (00:e0:4c:68:63:7b)|
+|LAN (lan)|re0 (ac:15:a2:02:e4:a9)|
 |Office (opt1)|vlan01 Office (Parent: re1, Tag: 10)|
 |Train (opt2)|vlan02 Train (Parent: re1, Tag: 20)|
 |IPCAM (opt3)|vlan03 IPCAM (Parent: re1, Tag: 30)|
