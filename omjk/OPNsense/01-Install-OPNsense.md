@@ -66,6 +66,7 @@
 
 * Server
   * [HP Compaq 6200 Pro SFF PC](https://support.hp.com/us-en/product/hp-compaq-6200-pro-small-form-factor-pc/5037900/model/5037907?sku=XL506AV)
+    * CPU type 	Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz (4 cores, 4 threads)
 * Extra NIC card
   * 2 stk. [tp-link TG-3468](https://www.tp-link.com/dk/home-networking/pci-adapter/tg-3468/)  
 * Wi-Fi Range Extender
