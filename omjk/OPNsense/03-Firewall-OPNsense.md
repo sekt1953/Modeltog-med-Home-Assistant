@@ -2,17 +2,28 @@
 
 ## Firewall > Aliases
 
+||**PrivateNetworks**|**HomeAssistantServer**|**AdminPCs**|
+|:---|:---|:---|:---|
+|Enabled|**Checked**|**Checked**|**Checked**|
+|Name|**PrivateNetworks**|**HomeAssistantServer**|**AdminPCs**|
+|Type|**Network(s)**|**Host(s)**|**Host(s)**|
+|Categories||||
+|Content|**__lan_network, __opt1_network, __opt2_network,__opt3_network**|**192.168.120.8**|**192.168.110.16-192.168.110.24**|
+|Statistics|**Unchecked**|**Unchecked**|**Unchecked**|
+|Description|**All my local networks**|**Home Assistant Server for Train software**|**PC that can manage network item**|
+
 ## Firewall > NAT > Port Forward
 
-### Access to Server
+***!!!! These rules are only for testing at home, from my workplace, so it is easier to create documentation.  
+!!! Important they must be disabled or deleted during installation.***
 
 |Server|OPNsense|HPE 1820|Home Assistant|
 |:---|:---|:---|:---|
-|Disabled|Unchecked|Unchecked|Unchecked|
+|Disabled|**Checked**|**Checked**|**Checked**|
 |No RDR (NOT)|Unchecked|Unchecked|Unchecked|
-|Interface|WAN|WAN|WAN|
-|TCP/IP Version|IPv4|IPv4|IPv4|
-|Protocol|TCP|TCP|TCP|
+|Interface|**WAN**|**WAN**|**WAN**|
+|TCP/IP Version|**IPv4**|**IPv4**|**IPv4**|
+|Protocol|**TCP**|**TCP**|**TCP**|
 |Destination / Invert|Unchecked|Unchecked|Unchecked|
 |Destination|**WAN address**|**WAN address**|**WAN address**|
 |Destination port range from:|**HTTP**|**8080**|**8123**|
@@ -31,6 +42,8 @@
 |Filter rule association|**Pass**|**Pass**|**Pass**|
 
 ## Firewall > Rules > WAN
+
+***Only Automatically generated rules here***
 
 ## Firewall > Rules > LAN > Default settings
 
@@ -61,17 +74,34 @@ Source
 
 ## Firewall > Rules > LAN
 
-|Option|DNS|NTP Time|ICMP|Access only to Internet|
+### 1.
+
+|Option|DNS|NTP Time|ICMP|HomeAssistant|
 |:---|:---|:---|:---|:---|
 |Action|**Pass**|**Pass**|**Pass**|**Pass**|
 |TCP/IP Version|**IPv4**|**IPv4**|**IPv4**|**IPv4**|
-|Protocol|**TCP/UDP**|**UDP**|**ICMP**|**any**|
-|Source|**LAN net**|**LAN net**|**LAN net**|**LAN net**|
-|Destination / Invert|**Unchecked**|**Unchecked**|**Unchecked**|**Checked**|
-|Destination|**LAN address**|**LAN address**|**any**|**PrivateNetworks**|
-|Destination port range from:|**DNS**|**NTP**|**any**|**any**|
-|Destination port range to:|**DNS**|**NTP**|**any**|**any**|
-|Description|**Allow access to DNS**|**Allow access to NTP**|**Allow ICMPv4 from LAN to all network**|**Allow access only to Internet**|
+|Protocol|**TCP/UDP**|**UDP**|**ICMP**|**TCP**|
+|Source|**LAN net**|**LAN net**|**LAN net**|**AdminPCs**|
+|Destination / Invert|**Unchecked**|**Unchecked**|**Unchecked**|**Unchecked**|
+|Destination|**LAN address**|**LAN address**|**any**|**HomeAssistantServer**|
+|Destination port range from:|**DNS**|**NTP**|**any**|**(other) 8123**|
+|Destination port range to:|**DNS**|**NTP**|**any**|**(other) 8123**|
+|Description|**Allow access to DNS**|**Allow access to NTP**|**Allow ICMPv4 from LAN to all network**|**Allow access for Admins to Home Assistant server**|
+
+### 2.
+
+|Option||||Access only to Internet|
+|:---|:---|:---|:---|:---|
+|Action||||**Pass**|
+|TCP/IP Version||||**IPv4**|
+|Protocol||||**any**|
+|Source||||**LAN net**|
+|Destination / Invert||||**Checked**|
+|Destination||||**PrivateNetworks**|
+|Destination port range from:||||**any**|
+|Destination port range to:||||**any**|
+|Description||||**Allow access only to Internet**|
+
 
 ## Firewall > Rules > Office
 
