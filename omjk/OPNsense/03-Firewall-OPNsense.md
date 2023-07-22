@@ -88,9 +88,9 @@
 |Action|**Pass**|**Pass**|**Pass**|
 |TCP/IP Version|**IPv4**|**IPv4**|**IPv4**|
 |Protocol|**TCP/UDP**|**UDP**|**any**|
-|Source|**LAN net**|**LAN net**|**192.168.120.8**|
+|Source|**Train net**|**Train net**|**HomeAssistantServer**|
 |Destination / Invert|**Unchecked**|**Unchecked**|**Checked**|
-|Destination|**LAN address**|**LAN address**|**PrivateNetworks**|
+|Destination|**Train address**|**Train address**|**PrivateNetworks**|
 |Destination port range from:|**DNS**|**NTP**|**any**|
 |Destination port range to:|**DNS**|**NTP**|**any**|
 |Description|**Allow access to DNS**|**Allow access to NTP**|**Allow HA Server access only to Internet**|
