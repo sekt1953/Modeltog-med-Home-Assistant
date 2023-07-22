@@ -8,11 +8,11 @@
 
 ## Cable conection
 
-|EthCabel|Function|OPNsense|Switch|HomeAssistant|WAN|ManagerPC|
+|EthCabel|Function|OPNsense|Switch|HomeAssistant|WiFiExtender for WAN|ManagerPC|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Red|WAN|(em0)|||Eth||
-|Black|LAN|(re0)|Port23|
-|White|VLANs|(re1)|Port21|
+|Black|LAN (vlan1)|(re0)|Port23|
+|White|VLANs (vlan 10,12,30)|(re1)|Port21|
 |Yellow|Home Assistant Server|||Eth||
 |Blue|Manegent PC||Port24|||Eth|
 
@@ -37,5 +37,4 @@
   * [Install from USB-key](./01-Install-OPNsense.md)
   * [Interface](./02a-Interface-OPNsense.md)
   * [Firewall](./03-Firewall-OPNsense.md)
-  * Service
-    * [DHCPv4](./04-Services-OPNsense.md)
+  * [Service > DHCPv4](./04-Services-OPNsense.md)
