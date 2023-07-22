@@ -36,5 +36,6 @@
 * OPNsense
   * [Install from USB-key](./01-Install-OPNsense.md)
   * [Interface](./02a-Interface-OPNsense.md)
-  * [Firewall](./03-Firewall-OPNsense.md)
   * [Service > DHCPv4](./04-Services-OPNsense.md)
+  * [Firewall](./03-Firewall-OPNsense.md)
+  

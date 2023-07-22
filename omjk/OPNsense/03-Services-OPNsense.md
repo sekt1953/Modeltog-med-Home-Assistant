@@ -8,7 +8,21 @@
     * [Set up a Full Network using OPNsense (Part 3: Switch)](https://youtu.be/4HP-YAJX56E?list=PLZeTcCOrKlnDlyZCIxhFZukAnA0NNWL_I "Home Network Guy")
     * [Set up a Full Network using OPNsense (Part 4: Wireless Access Point)](https://youtu.be/xiugRYzO3lQ?list=PLZeTcCOrKlnDlyZCIxhFZukAnA0NNWL_I "Home Network Guy"))
 
+## DHCP Configuration
+
+Once the interfaces are enabled, you will most likely want to enable DHCP on the interfaces so that all of your devices will automatically be assigned IP addresses when they are plugged into your network switch or join your WiFi network.
+
+For the DHCP settings, I am going use consistent values with all my networks. You may want to enable a wider range of IP addresses if you have more than 100 devices on any of your networks, but for most users the ranges I specify below will be sufficient.
+
+If you plan to have some devices use static IP addresses (which is recommended when hosting various apps/services on your network), I recommend that you do not set the DHCP IP address range to include the full subnet (192.168.1.2 - 192.168.1.254, for example) so that you have some available addresses for static IPs.
+
+Do not forget to click the ***“Save”*** button after configuring each interface.
+
 ## Services > DHCPv4 > [Pages]
+
+To reduce the length of this guide, refer to the table below to enter the IP address ranges for each interface’s DHCPv4 page by going to the “Services > DHCPv4” section and clicking on each interface’s page.
+
+For every interface below, be sure to click the “Enable” checkbox.
 
 |Page|[LAN]|[Office]|[Train]|[IPCam]|
 |:---|:---|:---|:---|:---|
@@ -26,6 +40,10 @@
 |Time format change|**Unchecked**|**Unchecked**|**Unchecked**|**Unchecked**|
 
 ## Services > DHCPv4 > Leases
+
+You can add static DHCP reservations directly from the ***“Services > DHCPv4 > Leases”*** page. It has the added benefit of prefilling the MAC address. Either way, you will need to enter the same information.
+
+For demonstration purposes, I will use several static DHCPv4 IP reservations that will be referenced by firewall rule aliases and included in several firewall rules. I am using randomly generated MAC addresses in the table as examples, but you will need to use your actual MAC addresses.
 
 |Interface|IP address|MAC address|Hostname|Description|Start|End|Status|Lease type
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|
