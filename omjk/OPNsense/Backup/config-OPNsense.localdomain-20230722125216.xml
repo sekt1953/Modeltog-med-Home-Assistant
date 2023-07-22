@@ -319,17 +319,13 @@
       <adv_dhcp_config_file_override_path/>
     </wan>
     <lan>
-      <if>ue0</if>
-      <descr>LANviaUSB</descr>
+      <if>re0</if>
+      <descr>LAN</descr>
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
       <ipaddr>192.168.101.1</ipaddr>
       <subnet>24</subnet>
-      <gateway/>
-      <ipaddrv6/>
-      <subnetv6/>
-      <gatewayv6/>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -402,6 +398,7 @@
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <pool/>
     </lan>
     <opt3>
       <enable>1</enable>
@@ -446,6 +443,14 @@
       <winsserver/>
       <dnsserver>192.168.120.1</dnsserver>
       <ntpserver/>
+      <staticmap>
+        <mac>ac:22:0b:50:03:92</mac>
+        <ipaddr>192.168.120.8</ipaddr>
+        <hostname>ha-pc-omjk</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt2>
   </dhcpd>
   <unbound>
@@ -491,6 +496,66 @@
       <created>
         <username>root@192.168.101.8</username>
         <time>1689869722.0521</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Access to HPE</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>pass</associated-rule-id>
+      <target>192.168.101.2</target>
+      <local-port>80</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>8080</port>
+      </destination>
+      <updated>
+        <username>root@192.168.0.20</username>
+        <time>1689950397.8016</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.20</username>
+        <time>1689883990.1857</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Nat to Home Assistant</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>pass</associated-rule-id>
+      <target>192.168.120.8</target>
+      <local-port>8123</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>8123</port>
+      </destination>
+      <updated>
+        <username>root@192.168.0.20</username>
+        <time>1689954689.2754</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.20</username>
+        <time>1689951459.3836</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
@@ -547,6 +612,60 @@
       <created>
         <username>root@192.168.0.20</username>
         <time>1689874836.7893</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="9dad3332-c028-465a-9aef-00a829bebcbe">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Time server access</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>udp</protocol>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <network>lanip</network>
+        <port>123</port>
+      </destination>
+      <updated>
+        <username>root@192.168.0.20</username>
+        <time>1689947168.5344</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.20</username>
+        <time>1689947168.5344</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="678201f6-0b4a-413d-9772-9d950cce93e6">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow access for Admins to Home Assistant server</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>AdminPCs</address>
+      </source>
+      <destination>
+        <address>HomeAssistantServer</address>
+        <port>8123</port>
+      </destination>
+      <updated>
+        <username>root@192.168.0.20</username>
+        <time>1690019037.2042</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.20</username>
+        <time>1690018220.4375</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -658,8 +777,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.20</username>
-    <time>1689875588.6576</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1690019037.283</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <monit version="1.0.11">
@@ -878,6 +997,19 @@ __opt3_network</content>
             <content>192.168.120.8</content>
             <categories/>
             <description>Home Assistant Server for Train software</description>
+          </alias>
+          <alias uuid="85d9b2b2-aa7a-472f-88f1-2232b5e364e4">
+            <enabled>1</enabled>
+            <name>AdminPCs</name>
+            <type>host</type>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.110.16-192.168.110.24
+192.168.101.8</content>
+            <categories/>
+            <description>PC that can manage network item</description>
           </alias>
         </aliases>
       </Alias>
@@ -1151,7 +1283,7 @@ __opt3_network</content>
   </staticroutes>
   <vlans version="1.0.0">
     <vlan uuid="2d283463-63d5-471e-9c23-be0d34b8bb20">
-      <if>re0</if>
+      <if>re1</if>
       <tag>10</tag>
       <pcp>0</pcp>
       <descr>Office</descr>
@@ -1165,7 +1297,7 @@ __opt3_network</content>
       <vlanif>vlan02</vlanif>
     </vlan>
     <vlan uuid="d99818f7-0892-46f1-9f7a-304dda06e4b2">
-      <if>re2</if>
+      <if>re1</if>
       <tag>30</tag>
       <pcp>0</pcp>
       <descr>IPCAM</descr>

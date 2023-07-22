@@ -18,7 +18,7 @@
 
 ## OPNsense Dokumentation
 
-### Articles
+### Articles - Sources and inspiration
 
 * [Welcome to OPNsense’s documentation!](https://docs.opnsense.org/)
   * [OPNsense Download](https://opnsense.org/download/)
@@ -134,9 +134,10 @@
       * Do you want to change the web GUI protocol from HTTPS to HTTP?: ***'Press N'***
       * Do you want to generate a new self-signed web GUI certificate?: ***'Press N'***
       * Restore web GUI access defaults?: ***'Press N'***
+  * Result setting interface IP address
     * ***OPNsense.localdomain: OPNsense 23.1***
-      * LAN (ue0)   -> v4: 192.168.101.1/24
-      * WAN (em0)   -> v4/DHCP4: xxx.xxx.xxx.xxx
+      * LAN (ue0)   -> **v4: 192.168.101.1/24**
+      * WAN (em0)   -> **v4/DHCP4: xxx.xxx.xxx.xxx**
 
 ## Configure OPNsense via WEB-page
 
@@ -150,50 +151,3 @@
     * Username: ***'root'***
     * Password:_***'opnsense'***
     * Press ***'Enter'***
-
-
-
-### DHCP Configuration
-
-***Services > DHCPv4 > Page***
-
-|Interface|Range from|Range to|
-|:---|:---|:---|
-|[LAN]|192.168.101.128|192.168.1.254|
-|[DMZ]|192.168.110.128|192.168.110.254|
-|[USER]|192.168.120.128|192.168.120.254|
-|[IPCAM]|192.168.130.128|192.168.130.254|
-
-***“Services > DHCPv4 > Leases”***
-
-|Interface|MAC address|IP address|Hostname
-|:---|:---|:---|:---|
-|[LAN]||192.168.101.2|hpe1820|
-|[Office]||192.168.110.8|printer|
-|[Office]||192.168.110.9|wdmycloud|
-|[Office]||192.168.110.10|tvpc|
-
-### Firewall Configuration
-
-***Firewall > Aliases***
-
-|Option|Value|
-|:---|:---|
-|Enabled|Checked|
-|Name|PrivateNetworks|
-|Type|Network(s)|
-|Content|10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16|
-|Description|All local networks|
-
-***Firewall: Rules: [LAN]***
-
-## HPE 1820 J9983A
-
-#### [Set up LACP on the switch](https://gist.github.com/pvalkone/9568061)
-
--------------------------
-
-1) Log into the switch management interface (by default at <http://192.168.2.10/>).
-2) Navigate to Trunks > Trunk Configuration
-3) Set up a new trunk by giving it a name, choosing "LACP Active" mode and the ports you'd like to aggregate.
-4) Click "Apply".

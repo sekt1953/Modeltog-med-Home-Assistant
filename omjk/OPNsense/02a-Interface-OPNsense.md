@@ -1,5 +1,8 @@
 # OPNsense Interface
 
+* Sources and inspiration
+  * [Set Up a Fully Functioning Home Network Using OPNsense](https://homenetworkguy.com/how-to/set-up-a-fully-functioning-home-network-using-opnsense/ "Home Network Guy")
+
 ## Interfaces > Settings
 
 |Option|Value|
