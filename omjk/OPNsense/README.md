@@ -1,5 +1,7 @@
 # OPNsense & HPE OfficeConnect Switch 1820 24G PoE+
 
+![](./Images/Opnsense-logo.svg%20(1).png)
+
 ## Network Diagram
 
 |Home Assistant|OPNsense & Switch|WiFiExtender for WAN|||
