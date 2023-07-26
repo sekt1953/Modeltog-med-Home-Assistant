@@ -11,3 +11,17 @@
 * Frank Williams
   * [(2) Sculpfun S9 Laser Engraver, Un-Box and assemble. - YouTube](https://www.youtube.com/watch?v=FoDqgaQziD4)
   * [(2) Lets get LASERING, with Sculpfun and Lightburn. - YouTube](https://www.youtube.com/watch?v=bVRrCXrXWTs)
+
+## FreeCAD
+
+* [FreeCAD Download](https://www.freecad.org/downloads.php)
+* FreeCAD Documentation
+  * [FreeCAD Documentation Main Page](https://wiki.freecad.org/Main_Page)
+  * [FreeCAD Getting started](https://wiki.freecad.org/Getting_started)
+
+ ##
+
+* INKSCAPE Draw Freely.
+  * [Download](https://inkscape.org/release/inkscape-1.3/)
+  * [Inkscape Tutorials](https://inkscape.org/learn/tutorials/)
+  
