@@ -19,9 +19,12 @@
   * [FreeCAD Documentation Main Page](https://wiki.freecad.org/Main_Page)
   * [FreeCAD Getting started](https://wiki.freecad.org/Getting_started)
 
- ##
+## INKSCAPE Draw Freely.
 
-* INKSCAPE Draw Freely.
-  * [Download](https://inkscape.org/release/inkscape-1.3/)
-  * [Inkscape Tutorials](https://inkscape.org/learn/tutorials/)
-  
+* [Download](https://inkscape.org/release/inkscape-1.3/)
+* [Inkscape Tutorials](https://inkscape.org/learn/tutorials/)
+
+## Scribus Open Source Desktop Publishing
+
+* [Download Scribus Stable branch](https://www.scribus.net/downloads/stable-branch/)
+* [Made with Scribus](https://www.scribus.net/category/made-with-scribus/)
