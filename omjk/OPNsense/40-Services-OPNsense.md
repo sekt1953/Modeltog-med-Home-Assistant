@@ -72,7 +72,7 @@ For demonstration purposes, I will use several static DHCPv4 IP reservations tha
 |Train|192.168.120.1|||OPNsense|**Hardcoded**|
 |Train|192.168.120.2|||AccessPoint|**Hardcoded**|
 |Train|***192.168.120.8***||ha-pc0-omjk||static|
-|Train|***192.168.120.9***||ha-pc1-omjk||static|
+|Train|***192.168.120.9***|***70:71:BC:5C:B1:A1***|ha-pc1-omjk||static|
 |Train|***192.168.120.32-192.168.120.63***||trackSensor-x|ESP32|static|
 |Train|***192.168.120.64-192.168.120.127***||trackLed-x|ESP32|static|
 |Train|***192.168.120.128-192.168.120.254***||||DHCP|
