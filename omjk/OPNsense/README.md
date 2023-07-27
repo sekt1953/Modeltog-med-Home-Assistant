@@ -34,10 +34,10 @@
 ## Setup & configurations instructions
 
 * Switch
-  * [HPE OfficeConnect Switch 1820 24G PoE+ Configuration](./00-HPE-1820.md)
+  * [HPE OfficeConnect Switch 1820 24G PoE+ Configuration](./10-HPE-1820.md)
 * OPNsense
-  * [Install from USB-key](./01-Install-OPNsense.md)
-  * [Interface](./02a-Interface-OPNsense.md)
-  * [Service > DHCPv4](./04-Services-OPNsense.md)
-  * [Firewall](./03-Firewall-OPNsense.md)
+  * [Install from USB-key](./20-Install-OPNsense.md)
+  * [Interface](./30-Interface-OPNsense.md)
+  * [Service > DHCPv4](./40-Services-OPNsense.md)
+  * [Firewall](./50-Firewall-OPNsense.md)
   

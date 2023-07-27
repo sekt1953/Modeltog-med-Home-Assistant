@@ -28,3 +28,22 @@
 
 * [Download Scribus Stable branch](https://www.scribus.net/downloads/stable-branch/)
 * [Made with Scribus](https://www.scribus.net/category/made-with-scribus/)
+
+## Brænder software
+
+* [LightBurn](https://lightburnsoftware.com/)
+  * [Download](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy)
+* [LASERGRBL Free Laser Engraving](https://lasergrbl.com/)
+  * [Download](https://lasergrbl.com/download/)
+* [RUIDA RDWorks Software](https://www.ruidacontroller.com/ruida-rdworks-software/)
+  * [RDWorksV8(8.01.52).rar](https://rdacs.oss-cn-shenzhen.aliyuncs.com/download/RDWorksV8(8.01.52).rar)
+  * [RDWorks manual]()
+    * [RDWorksV8_Software_Manual](https://www.ruidacontroller.com/wp-content/uploads/2021/10/RDWorksV8_Software_Manual.pdf)
+    * [RDWork-Laser-Engraving-Cutting-Software-V1.3](https://www.ruidacontroller.com/wp-content/uploads/2021/10/RDWork-Laser-Engraving-Cutting-Software-V1.3.pdf)
+* [Install RuiDa Laser Works in Arch/Manjaro Linux](https://medium.com/@CaptainHooligan/install-ruida-laser-works-in-arch-manjaro-linux-32f505f78e6e)
+* [RDWorks on Linux](https://www.youtube.com/playlist?list=PLELb8okMwuTpBSSRpm44TRoTC8OJ4_UM8https://www.youtube.com/playlist?list=PLELb8okMwuTpBSSRpm44TRoTC8OJ4_UM8 )
+  * [PART# 1 RDWorks Laser software On Linux, and WHY?](https://youtu.be/9CExXXK0ZwQ?list=PLELb8okMwuTpBSSRpm44TRoTC8OJ4_UM8)
+  * [PART# 2 Installing RDWorks Laser software on Linux.](https://youtu.be/BsZK4gLzzsA?list=PLELb8okMwuTpBSSRpm44TRoTC8OJ4_UM8)
+  * [LASER ENGRAVE PHOTOS - how to GET IT RIGHT.](https://youtu.be/CroUeKO3DyI?list=PLELb8okMwuTpBSSRpm44TRoTC8OJ4_UM8)
+  * [LASER ENGRAVE #2,- HIGH CONTRAST, and recover extreme areas.](https://youtu.be/L6I1il3YMVM?list=PLELb8okMwuTpBSSRpm44TRoTC8OJ4_UM8)
+  * [LASER ENGRAVING: alterative method: BENCH TEST.](https://youtu.be/OA0kg5TYhwo?list=PLELb8okMwuTpBSSRpm44TRoTC8OJ4_UM8)
