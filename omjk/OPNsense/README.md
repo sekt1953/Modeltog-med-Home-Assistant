@@ -35,6 +35,8 @@
 
 * Switch
   * [HPE OfficeConnect Switch 1820 24G PoE+ Configuration](./10-HPE-1820.md)
+* Access Point
+  * [Old Router as access point](15-AccessPoint.md)
 * OPNsense
   * [Install from USB-key](./20-Install-OPNsense.md)
   * [Interface](./30-Interface-OPNsense.md)

@@ -45,9 +45,34 @@ You can add static DHCP reservations directly from the ***“Services > DHCPv4 >
 
 For demonstration purposes, I will use several static DHCPv4 IP reservations that will be referenced by firewall rule aliases and included in several firewall rules. I am using randomly generated MAC addresses in the table as examples, but you will need to use your actual MAC addresses.
 
-|Interface|IP address|MAC address|Hostname|Description|Start|End|Status|Lease type
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-|LAN|192.168.101.2|54:80:28:59:7d:a0 *Hewlett Packard Enterprise*|||2023/07/21 11:36:10 UTC|2023/07/21 13:36:10 UTC||static|
-|LAN|192.168.101.8|50:7b:9d:4e:5d:09 *LCFC(HeFei) Electronics Technology co., ltd*|T450-01|SEKT's PC||||static|
-|Office|192.168.110.128|68:f7:28:51:27:b3 *LCFC(HeFei) Electronics Technology co., ltd*|T450-02||2023/07/21 11:36:14 UTC|2023/07/21 13:36:14 UTC||active|
-|Train|192.168.120.128|f0:de:f1:d2:67:b1 *Wistron Infocomm (Zhongshan) Corporation*|E525-005||2023/07/21 11:36:07 UTC|2023/07/21 13:36:07 UTC||active|
+### LAN net
+
+|Interface|IP address|MAC address|Hostname|Description|Lease type|
+|:---|:---|:---|:---|:---|:---|
+|LAN|192.168.101.1|||OPNsense|**Hardcoded**|
+|LAN|192.168.101.2|54:80:28:59:7d:a0||HPE1820|static|
+|LAN|***192.168.101.16***|50:7b:9d:4e:5d:09|T450-01|SEKT's PC|static|
+|LAN|***192.168.101.128-192.168.101.254***|||User*|DHCP|
+### Office net
+
+|Interface|IP address|MAC address|Hostname|Description|Lease type|
+|:---|:---|:---|:---|:---|:---|
+|Office|192.168.110.1|||OPNsense|**Hardcoded**|
+|Office|192.168.110.2||WR940N|AccessPoint|**Hardcoded**|
+|Office|***192.168.110.16***|50:7b:9d:4e:5d:09|T450-01|SEKT's PC|static|
+|Office|***192.168.110.8***|||Printer|static|
+|Office|***192.168.110.9***|||TV-PC|static|
+|Office|***192.168.110.12***|||WD My Cloud|static|
+|Office|***192.168.110.128-192.168.110.254***|||User*|DHCP|
+
+### Train net
+
+|Interface|IP address|MAC address|Hostname|Description|Lease type|
+|:---|:---|:---|:---|:---|:---|
+|Train|192.168.120.1|||OPNsense|**Hardcoded**|
+|Train|192.168.120.2|||AccessPoint|**Hardcoded**|
+|Train|***192.168.120.8***||ha-pc0-omjk||static|
+|Train|***192.168.120.9***||ha-pc1-omjk||static|
+|Train|***192.168.120.32-192.168.120.63***||trackSensor-x|ESP32|static|
+|Train|***192.168.120.64-192.168.120.127***||trackLed-x|ESP32|static|
+|Train|***192.168.120.128-192.168.120.254***||||DHCP|

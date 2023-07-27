@@ -75,16 +75,16 @@ Click the ***“Apply”*** button to ensure the alias changes are applied. If y
 
 The LAN network will already have the ***“allow all IPv4”*** rules created by default from the OPNsense installation. However, I will tweak them so that access to your other networks is limited. If you recall from earlier, in this example I am using the ***untagged LAN*** as the ***management network*** where all of the ***critical network*** infrastructure will be ***managed***.
 
-|Option|DNS|NTP Time|ICMP|HomeAssistant|HPPrinter|Access only to Internet|
+|Option|DNS|NTP Time|ICMP|***Train Net***|HPPrinter|Access only to Internet|
 |:---|:---|:---|:---|:---|:---|:---|
 |Action|Pass|Pass|Pass|Pass|Pass|Pass|
 |TCP/IP Version|IPv4|IPv4|IPv4|IPv4|IPv4|IPv4|
 |Protocol|TCP/UDP|UDP|ICMP|TCP|TCP/UDP|any|
 |Source|LAN net|LAN net|LAN net|AdminPCs|AdminPCs|
 |Destination / Invert|Unchecked|Unchecked|Unchecked|Unchecked|Unchecked|Checked|
-|Destination|LAN address|LAN address|any|HomeAssistantServer|HPPrinter|PrivateNetworks|
-|Destination port range from:|DNS|NTP|any|(other) 8123|any|any|
-|Destination port range to:|DNS|NTP|any|(other) 8123|any|any|
+|Destination|LAN address|LAN address|any|***Train net***|HPPrinter|PrivateNetworks|
+|Destination port range from:|DNS|NTP|any|***any***|any|any|
+|Destination port range to:|DNS|NTP|any|***any***|any|any|
 |Description|Allow access to DNS|Allow access to NTP|Allow ICMPv4 from LAN to all network|Allow access for Admins to Home Assistant server|Allow access to Printer for Admins PC|Allow access only to Internet|
 
 ## Firewall > Rules > Office
@@ -93,16 +93,16 @@ The Office network can be used for PCs, laptops, or phones. The primary purpose 
 
 For the allow rule for the printer, I set the destination port to any to keep it simple but printers can often require several ports depending on the type of printer. For instance, HP printers have a list of ports that you may add in order to further restrict access.
 
-|Option|DNS|NTP Time|HomeAssistant|HPE1820|Access only to Internet|
+|Option|DNS|NTP Time|***Train net***|HPE1820|Access only to Internet|
 |:---|:---|:---|:---|:---|:---|
 |Action|Pass|Pass|Pass|Pass|Pass|
 |TCP/IP Version|IPv4|IPv4|IPv4|IPv4|IPv4|
 |Protocol|TCP/UDP|UDP|TCP|TCP|any|
 |Source|Office net|Office net|AdminPCs|AdminPCs|Office net|
 |Destination / Invert|Unchecked|Unchecked|Unchecked|Unchecked|Checked|
-|Destination|Office address|Office address|HomeAssistantServer|HPE1820|PrivateNetworks|
-|Destination port range from:|DNS|NTP|(other) 8123|HTTP|any|
-|Destination port range to:|DNS|NTP|(other) 8123|HTTP|any|
+|Destination|Office address|Office address|***Train net***|HPE1820|PrivateNetworks|
+|Destination port range from:|DNS|NTP|***any***|HTTP|any|
+|Destination port range to:|DNS|NTP|***any***|HTTP|any|
 |Description|Allow access to DNS|Allow access to NTP|Admin Accesss to Home Assistant Server|Admin Accesss to HPE 1820|Allow access only to Internet|
 
 Ideally, you should have a dedicated device (or VM perhaps) residing on the LAN that has access to all of the web interfaces of your network infrastructure. If you do not have any dedicated devices available, you could create a rule on the USER network to allow your PC/laptop to access the management interfaces. This is less than ideal because you are poking a hole in the management network, but at least access is still restricted from a specific device to specific web interfaces and ports. Security is still better than a flat network with full access to everything.
