@@ -24,6 +24,11 @@
 * [Download](https://inkscape.org/release/inkscape-1.3/)
 * [Inkscape Tutorials](https://inkscape.org/learn/tutorials/)
 
+85th and Pine
+
+* [How to Edit an Image on Inkscape to Engrave on Glowforge](https://www.youtube.com/watch?v=k0l3cQbnCOw)
+* [Inkscape Tutorials](https://www.youtube.com/playlist?list=PLS0nMZk2hE9dBwzTXLCgW24eniokS7ciw)
+
 ## Scribus Open Source Desktop Publishing
 
 * [Download Scribus Stable branch](https://www.scribus.net/downloads/stable-branch/)
