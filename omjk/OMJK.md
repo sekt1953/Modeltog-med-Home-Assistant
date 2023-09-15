@@ -1,14 +1,15 @@
 # OMJK version af Modelbane med Home Assistant
 
-## PCB-CPU & Power
+## LedDriver v6.1
 
-|Schematic|
-|:---:|
-|![Schematic1](./Fritzing/PCB-CPU/PCB-CPU_and_Power_schem.png)|
 
-|PCB|
-|:---:|
-|![pcb](./Fritzing/PCB-CPU/PCB-CPU_and_Power_bb.png)|
+|Leddriver cpu|Leddriver interface|
+|:---:|:---:|
+|![](./Images/Skærmbillede%20fra%202023-09-03%2012-30-54.png)|![Leddri9ver v6.1](./Images/Skærmbillede%20fra%202023-09-02%2018-29-31.png)|
+
+||PCB|
+|:---:|:---:|
+|Top|![](./Images/PCB-LedDriver-V6.1_etch_copper_top.png)|
 
 ### CPU & Power Files
 
@@ -16,6 +17,7 @@
   * [Fritzing CPU-File](./Fritzing/PCB-CPU/PCB-CPU_and_Power.fzz)
 * ESPHome yaml]
   * [CPU with TrackSensor]()
+
 
 ### CPU & Power Matrialer
 
